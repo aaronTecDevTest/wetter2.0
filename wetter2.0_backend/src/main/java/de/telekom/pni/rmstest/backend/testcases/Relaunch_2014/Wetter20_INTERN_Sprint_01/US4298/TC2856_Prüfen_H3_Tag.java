@@ -30,13 +30,13 @@ public class TC2856_Prüfen_H3_Tag extends GenericTest_New {
         globalVar.searchStringList.add("Postkamp (Altenholz)");
         globalVar.searchStringList.add("New York");
 
-        globalVar.resultStringList.add("Das aktuelle Wetter für Darmstadt (Hessen)");
-        globalVar.resultStringList.add("Das aktuelle Wetter für Darmstadt (Hessen)");
-        globalVar.resultStringList.add("Das aktuelle Wetter für Darmstadt (Hessen)");
-        globalVar.resultStringList.add("Das aktuelle Wetter für Darmstadt (Hessen)");
-        globalVar.resultStringList.add("Das aktuelle Wetter für Darmstadt (Hessen)");
-        globalVar.resultStringList.add("Das aktuelle Wetter für Darmstadt (Hessen)");
-        globalVar.resultStringList.add("Das aktuelle Wetter für Darmstadt (Hessen)");
+        globalVar.resultStringList.add("Wettervorhersage für Darmstadt (Hessen)");
+        globalVar.resultStringList.add("Wettervorhersage für Darmstadt (Hessen)");
+        globalVar.resultStringList.add("Wettervorhersage für Darmstadt (Hessen)");
+        globalVar.resultStringList.add("Wettervorhersage für Darmstadt (Hessen)");
+        globalVar.resultStringList.add("Wettervorhersage für Darmstadt (Hessen)");
+        globalVar.resultStringList.add("Wettervorhersage für Darmstadt (Hessen)");
+        globalVar.resultStringList.add("Wettervorhersage für Darmstadt (Hessen)");
 
         //Step 1
         getBrowser();
