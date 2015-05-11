@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>wetter2.0_backend</artifactId>
+
+    <parent>
+        <groupId>de.telekom.pni</groupId>
+        <artifactId>wetter2.0</artifactId>
+        <version>0.0.1</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <targetResult>src/main/resources/testng/result</targetResult>
+        <suiteFile>src\main\java\de\telekom\pni\rmstest\backend\testng\testsuites\testng_head.xml</suiteFile>
+
+        <timezone>+2</timezone>
+        <timestamp>${maven.build.timestamp}</timestamp>
+        <maven.build.timestamp.format>yyyyMMdd-HHmm</maven.build.timestamp.format>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.sikuli</groupId>
+            <artifactId>sikuli-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.rallydev.rest</groupId>
+            <artifactId>rally-rest-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.opera</groupId>
+            <artifactId>operadriver</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-ie-driver</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate.javax.persistence</groupId>
+            <artifactId>hibernate-jpa-2.0-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jvnet.com4j</groupId>
+            <artifactId>maven-com4j-plugin</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.appium</groupId>
+            <artifactId>java-client</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.selendroid</groupId>
+            <artifactId>selendroid-standalone</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.selendroid</groupId>
+            <artifactId>selendroid-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.offbytwo.jenkins</groupId>
+            <artifactId>jenkins-client</artifactId>
+        </dependency>
+
+        <!--dependency>
+            <groupId>com.lazerycode.jmeter</groupId>
+            <artifactId>jmeter-maven-plugin</artifactId>
+        </dependenc-->
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+
+                    <reportsDirectory>${targetResult}/${timestamp}</reportsDirectory>
+                    <!-- Using Suite XML Files-->
+                    <suiteXmlFiles>
+                     <suiteXmlFile>${suiteFile}</suiteXmlFile>
+                        <!--outputDirectory>src\main\resources\testng\result</outputDirectory-->
+                    </suiteXmlFiles>
+
+                    <!--Specifying Test Parameters-->
+                    <!--systemPropertyVariables>
+                        <propertyName>firefox</propertyName>
+                    </systemPropertyVariables-->
+
+                    <!--Running Tests in Parallel-->
+                    <!--parallel>methods</parallel>
+                    <threadCount>10</threadCount-->
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <!-- Legt die Klasse Fest, die beim Ausführen der JAR gestartet werden soll -->
+                            <addClasspath>true</addClasspath>
+                            <mainClass>de.telekom.pni.rmstest.backend.application.Autorun</mainClass>
+                        </manifest>
+                    </archive>
+                    <descriptorRefs>
+                        <!-- Legt fest, dass eine JAR Datei mit integrierten Dependencies Erzeugt werden soll -->
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+
+    </build>
+</project>

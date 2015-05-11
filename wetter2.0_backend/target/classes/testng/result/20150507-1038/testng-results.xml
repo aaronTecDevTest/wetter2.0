@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="General TestSuite" duration-ms="0" started-at="2015-05-07T10:38:38Z" finished-at="2015-05-07T10:38:38Z">
+    <groups>
+    </groups>
+  </suite> <!-- General TestSuite -->
+  <suite name="Suite1" duration-ms="20" started-at="2015-05-07T10:38:38Z" finished-at="2015-05-07T10:38:38Z">
+    <groups>
+      <group name="fast">
+        <method signature="SimpleTest1.aFastTest()[pri:0, instance:de.telekom.pni.rmstest.backend.testng.test.SimpleTest1@26be92ad]" name="aFastTest" class="de.telekom.pni.rmstest.backend.testng.test.SimpleTest1"/>
+        <method signature="SimpleTest2.aFastTest()[pri:0, instance:de.telekom.pni.rmstest.backend.testng.test.SimpleTest2@1b604f19]" name="aFastTest" class="de.telekom.pni.rmstest.backend.testng.test.SimpleTest2"/>
+      </group> <!-- fast -->
+      <group name="slow">
+        <method signature="SimpleTest1.aSlowTest()[pri:0, instance:de.telekom.pni.rmstest.backend.testng.test.SimpleTest1@26be92ad]" name="aSlowTest" class="de.telekom.pni.rmstest.backend.testng.test.SimpleTest1"/>
+        <method signature="SimpleTest2.aSlowTest()[pri:0, instance:de.telekom.pni.rmstest.backend.testng.test.SimpleTest2@1b604f19]" name="aSlowTest" class="de.telekom.pni.rmstest.backend.testng.test.SimpleTest2"/>
+      </group> <!-- slow -->
+    </groups>
+    <test name="Regression_Class1" duration-ms="20" started-at="2015-05-07T10:38:38Z" finished-at="2015-05-07T10:38:38Z">
+      <class name="de.telekom.pni.rmstest.backend.testng.test.SimpleTest1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.telekom.pni.rmstest.backend.testng.test.SimpleTest1@26be92ad]" name="setUp" is-config="true" duration-ms="7" started-at="2015-05-07T12:38:38Z" finished-at="2015-05-07T12:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="aFastTest()[pri:0, instance:de.telekom.pni.rmstest.backend.testng.test.SimpleTest1@26be92ad]" name="aFastTest" duration-ms="2" started-at="2015-05-07T12:38:38Z" finished-at="2015-05-07T12:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aFastTest -->
+        <test-method status="PASS" signature="aSlowTest()[pri:0, instance:de.telekom.pni.rmstest.backend.testng.test.SimpleTest1@26be92ad]" name="aSlowTest" duration-ms="1" started-at="2015-05-07T12:38:38Z" finished-at="2015-05-07T12:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aSlowTest -->
+      </class> <!-- de.telekom.pni.rmstest.backend.testng.test.SimpleTest1 -->
+      <class name="de.telekom.pni.rmstest.backend.testng.test.SimpleTest2">
+        <test-method status="PASS" signature="aFastTest()[pri:0, instance:de.telekom.pni.rmstest.backend.testng.test.SimpleTest2@1b604f19]" name="aFastTest" duration-ms="0" started-at="2015-05-07T12:38:38Z" finished-at="2015-05-07T12:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aFastTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.telekom.pni.rmstest.backend.testng.test.SimpleTest2@1b604f19]" name="setUp" is-config="true" duration-ms="0" started-at="2015-05-07T12:38:38Z" finished-at="2015-05-07T12:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="aSlowTest()[pri:0, instance:de.telekom.pni.rmstest.backend.testng.test.SimpleTest2@1b604f19]" name="aSlowTest" duration-ms="0" started-at="2015-05-07T12:38:38Z" finished-at="2015-05-07T12:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aSlowTest -->
+      </class> <!-- de.telekom.pni.rmstest.backend.testng.test.SimpleTest2 -->
+    </test> <!-- Regression_Class1 -->
+  </suite> <!-- Suite1 -->
+  <suite name="Suite2" duration-ms="2" started-at="2015-05-07T10:38:38Z" finished-at="2015-05-07T10:38:38Z">
+    <groups>
+      <group name="fast">
+        <method signature="SimpleTest1.aFastTest()[pri:0, instance:de.telekom.pni.rmstest.backend.testng.test.SimpleTest1@91161c7]" name="aFastTest" class="de.telekom.pni.rmstest.backend.testng.test.SimpleTest1"/>
+        <method signature="SimpleTest2.aFastTest()[pri:0, instance:de.telekom.pni.rmstest.backend.testng.test.SimpleTest2@5e3a8624]" name="aFastTest" class="de.telekom.pni.rmstest.backend.testng.test.SimpleTest2"/>
+      </group> <!-- fast -->
+      <group name="slow">
+        <method signature="SimpleTest1.aSlowTest()[pri:0, instance:de.telekom.pni.rmstest.backend.testng.test.SimpleTest1@91161c7]" name="aSlowTest" class="de.telekom.pni.rmstest.backend.testng.test.SimpleTest1"/>
+        <method signature="SimpleTest2.aSlowTest()[pri:0, instance:de.telekom.pni.rmstest.backend.testng.test.SimpleTest2@5e3a8624]" name="aSlowTest" class="de.telekom.pni.rmstest.backend.testng.test.SimpleTest2"/>
+      </group> <!-- slow -->
+    </groups>
+    <test name="Package_Test1" duration-ms="2" started-at="2015-05-07T10:38:38Z" finished-at="2015-05-07T10:38:38Z">
+      <class name="de.telekom.pni.rmstest.backend.testng.test.SimpleTest1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.telekom.pni.rmstest.backend.testng.test.SimpleTest1@91161c7]" name="setUp" is-config="true" duration-ms="0" started-at="2015-05-07T12:38:38Z" finished-at="2015-05-07T12:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="aFastTest()[pri:0, instance:de.telekom.pni.rmstest.backend.testng.test.SimpleTest1@91161c7]" name="aFastTest" duration-ms="0" started-at="2015-05-07T12:38:38Z" finished-at="2015-05-07T12:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aFastTest -->
+        <test-method status="PASS" signature="aSlowTest()[pri:0, instance:de.telekom.pni.rmstest.backend.testng.test.SimpleTest1@91161c7]" name="aSlowTest" duration-ms="0" started-at="2015-05-07T12:38:38Z" finished-at="2015-05-07T12:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aSlowTest -->
+      </class> <!-- de.telekom.pni.rmstest.backend.testng.test.SimpleTest1 -->
+      <class name="de.telekom.pni.rmstest.backend.testng.test.SimpleTest2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.telekom.pni.rmstest.backend.testng.test.SimpleTest2@5e3a8624]" name="setUp" is-config="true" duration-ms="0" started-at="2015-05-07T12:38:38Z" finished-at="2015-05-07T12:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="aFastTest()[pri:0, instance:de.telekom.pni.rmstest.backend.testng.test.SimpleTest2@5e3a8624]" name="aFastTest" duration-ms="0" started-at="2015-05-07T12:38:38Z" finished-at="2015-05-07T12:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aFastTest -->
+        <test-method status="PASS" signature="aSlowTest()[pri:0, instance:de.telekom.pni.rmstest.backend.testng.test.SimpleTest2@5e3a8624]" name="aSlowTest" duration-ms="0" started-at="2015-05-07T12:38:38Z" finished-at="2015-05-07T12:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aSlowTest -->
+      </class> <!-- de.telekom.pni.rmstest.backend.testng.test.SimpleTest2 -->
+    </test> <!-- Package_Test1 -->
+  </suite> <!-- Suite2 -->
+</testng-results>
