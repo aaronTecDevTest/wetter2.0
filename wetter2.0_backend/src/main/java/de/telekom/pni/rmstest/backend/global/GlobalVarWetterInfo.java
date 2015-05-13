@@ -2,7 +2,6 @@ package de.telekom.pni.rmstest.backend.global;
 
 import java.util.ArrayList;
 
-
 public class GlobalVarWetterInfo extends GlobalVar {
 
     public GlobalVarWetterInfo() {
@@ -10,13 +9,13 @@ public class GlobalVarWetterInfo extends GlobalVar {
         super.testCaseShortName = "wetter";
 
         //Suchfeld
-        super._INPUT_BOX = ".//*/input[contains(@id,'searchPattern')]";  //".//*[@id='searchPattern']"; //
+        super._INPUT_BOX = ".//*/input[contains(@id,'searchPattern')]";
         super._SEARCH_BUTTON = ".//*[@id='wisuche']/a";
 
 
         //Liste des Autosuggest
         super._AUTOSUGGEST = ".//*[@id='searchPattern_ac']";
-        super._AUTOSUGGEST_LIST = ".//*[@id='searchPattern_ac']/ul/li[*]/a";//".//*[@id='searchPattern_ac']/ul/li";
+        super._AUTOSUGGEST_LIST = ".//*[@id='searchPattern_ac']/ul/li[*]/a";
         super._WETTER_ORT_H1 = ".//*[@id='Tcontbox']/div[2]/div[3]/div[2]/div[1]/div/a"; //(Recht Oben unter Info Zeichen)
 
 
@@ -28,6 +27,7 @@ public class GlobalVarWetterInfo extends GlobalVar {
         super._SUCHERGEBNISSEITE_ALL_ORT_OHNE_TOP = ".//*[@id='Twieser']/div[*]/div[*]";
         super._SUCHERGEBNISSEITE_ALL_ORT_MIT_TOP = ".//*[@id='Twieser']/div[*]/p[*]";
         super._SUCHERGEBNISSEITE_AUSKLAPP_BUTTONS = ".//*[@id='Twieser']/h4[*]/span";
+        super._SUCHERGEBNISSEITE_LIST_ORTE3 = ".//*[@id='Twieser']/div[3]";
         super._SUCHERGEBNISSEITE_LIST_DE = ".//*[@id='Twieser']/div[1]/div[*]";
         super._SUCHERGEBNISSEITE_Filter_AnzahlOrt = ".//*[@id='TfltLst']/li[*]/label/b";
 
@@ -126,6 +126,9 @@ public class GlobalVarWetterInfo extends GlobalVar {
         super.__FAVORETEN_MODUL_MeineFavoriten_AutoSuggest2__ = "//*[@id=\"Tsetfav3_ac\"]";
         super.__FAVORETEN_MODUL_MeineFavoriten_AutoSuggest3__ = "//*[@id=\"Tsetfav4_ac\"]";
 
+        //Meta Info
+        super.__META_CONONICAL_TAG__ = "/html/head/link[13]";
+        super.__META_URL_Tag__ = "/html/head/meta[7]";
 
         //Breadcrumb
         super.__BREADCRUMB_ALL__ = "//*[@id=\"Tbcrumbinner\"]/div";
@@ -145,17 +148,17 @@ public class GlobalVarWetterInfo extends GlobalVar {
         super.__All_Links__ = ".//a";
 
 
-        linkTab.add(".//*[@id='T-self.parsedId-1']/div[2]/span[6]");                                        //3-Tage Wetterseite (Übersicht)
-        linkTab.add(".//*[@id='Treitsci']/ul/li[1]/a/");                                                    //1.Tage Wetterseite
-        linkTab.add(".//*[@id='Treitsci']/ul/li[2]/a/");                                                    //2.Tage Wetterseite
-        linkTab.add(".//*[@id='Treitsci']/ul/li[3]/a/");                                                    //3.Tage Wetterseite
-        linkTab.add(".//*[@id='Treitsci']/ul/li[4]/a/");                                                    //4.Tage Wetterseite
-        linkTab.add(".//*[@id='Treitsci']/ul/li[5]/a/");                                                    //5.Tage Wetterseite
-        linkTab.add(".//*[@id='Treitsci']/ul/li[6]/a/");                                                    //6.Tage Wetterseite
-        linkTab.add(".//*[@id='Treitsci']/ul/li[7]/a/");                                                    //7.Tage Wetterseite
-        linkTab.add(".//*[@id='Treitsci']/ul/li[8]/a/");                                                    //8.Tage Wetterseite
-        linkTab.add(".//*[@id='Treitsci']/ul/li[9]/a/");                                                    //9.Tage Wetterseite
-        linkTab.add(".//*[@id='Treitsci']/ul/li[10]/a/");                                                    //10.Tage Wetterseite
-        linkTab.add(".//*[@id='Tcontbox']/div[2]/div[3]/div[2]/div[3]/div[2]/div[3]/div[1]/div/a[2]");        //Für 10-Tage Ansicht
+        linkTab.add(".//*[@id='T-self.parsedId-1']/div[2]/span[6]");                                    //3-Tage Wetterseite (Übersicht)
+        linkTab.add(".//*[@id='Treitsci']/ul/li[1]/a/");                                                //1.Tage Wetterseite
+        linkTab.add(".//*[@id='Treitsci']/ul/li[2]/a/");                                                //2.Tage Wetterseite
+        linkTab.add(".//*[@id='Treitsci']/ul/li[3]/a/");                                                //3.Tage Wetterseite
+        linkTab.add(".//*[@id='Treitsci']/ul/li[4]/a/");                                                //4.Tage Wetterseite
+        linkTab.add(".//*[@id='Treitsci']/ul/li[5]/a/");                                                //5.Tage Wetterseite
+        linkTab.add(".//*[@id='Treitsci']/ul/li[6]/a/");                                                //6.Tage Wetterseite
+        linkTab.add(".//*[@id='Treitsci']/ul/li[7]/a/");                                                //7.Tage Wetterseite
+        linkTab.add(".//*[@id='Treitsci']/ul/li[8]/a/");                                                //8.Tage Wetterseite
+        linkTab.add(".//*[@id='Treitsci']/ul/li[9]/a/");                                                //9.Tage Wetterseite
+        linkTab.add(".//*[@id='Treitsci']/ul/li[10]/a/");                                               //10.Tage Wetterseite
+        linkTab.add(".//*[@id='Tcontbox']/div[2]/div[3]/div[2]/div[3]/div[2]/div[3]/div[1]/div/a[2]");  //Für 10-Tage Ansicht
     }
 }

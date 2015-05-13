@@ -10,13 +10,13 @@ public class GlobalVarWetterInfo_Preview extends GlobalVar {
         super.testCaseShortName = "wetter";
 
         //Suchfeld
-        super._INPUT_BOX = ".//*/input[contains(@id,'searchPattern')]";              //".//*[@id='searchPattern']";
+        super._INPUT_BOX = ".//*/input[contains(@id,'searchPattern')]";
         super._SEARCH_BUTTON = ".//*[@id='wisuche']/a";
 
 
         //Liste des Autosuggest
         super._AUTOSUGGEST = ".//*[@id='searchPattern_ac']";
-        super._AUTOSUGGEST_LIST = ".//*[@id='searchPattern_ac']/ul/li[*]/a";                //".//*[@id='searchPattern_ac']/ul/li";
+        super._AUTOSUGGEST_LIST = ".//*[@id='searchPattern_ac']/ul/li[*]/a";
         super._WETTER_ORT_H1 = ".//*[@id='Tcontbox']/div[2]/div[3]/div[2]/div[1]/div/a"; //(Recht Oben unter Info Zeichen)
 
 
@@ -28,6 +28,7 @@ public class GlobalVarWetterInfo_Preview extends GlobalVar {
         super._SUCHERGEBNISSEITE_ALL_ORT_OHNE_TOP = ".//*[@id='Twieser']/div[*]/div[*]";
         super._SUCHERGEBNISSEITE_ALL_ORT_MIT_TOP = ".//*[@id='Twieser']/div[*]/p[*]";
         super._SUCHERGEBNISSEITE_AUSKLAPP_BUTTONS = ".//*[@id='Twieser']/h4[*]/span";
+        super._SUCHERGEBNISSEITE_LIST_ORTE3 = ".//*[@id='Twieser']/div[3]";
         super._SUCHERGEBNISSEITE_LIST_DE = ".//*[@id='Twieser']/div[1]/div[*]";
         super._SUCHERGEBNISSEITE_Filter_AnzahlOrt = ".//*[@id='TfltLst']/li[*]/label/b";
 
@@ -141,10 +142,11 @@ public class GlobalVarWetterInfo_Preview extends GlobalVar {
         super.__BREADCRUMB_LINK4_Temp__ = "//*[@id=\"Tbcrumbinner\"]/div/h1/a[2]";
 
 
-        //Schnittstelle
+        //Schnittstelle Wirk
         super.__Schnittstelle_Wirk__ = "http://suche.wetter.info/ariadne/wsuggestion?location=new&limitNumber=10&limitCountries=??&countryPriority=?";
         super.__Schnittstelle_Test__ = "http://livetest.wetter.info/suchewetter/ariadne/wsuggestion?location=new%20york&limitNumber=10&limitCountries=??&countryPriority=?";
         super.__Schnitstelle_Wetterdaten_Showall__ = "http://rest.wetter.info/webservice/v1_0/rest/place&t=td39ef23d36bbcf35c7f6607a3ab239be&id=K90033549&attributes=showall";
+
         super.__All_Links__ = ".//a";
 
 
@@ -158,7 +160,7 @@ public class GlobalVarWetterInfo_Preview extends GlobalVar {
         linkTab.add(".//*[@id='Treitsci']/ul/li[7]/a/");                                                //7.Tage Wetterseite
         linkTab.add(".//*[@id='Treitsci']/ul/li[8]/a/");                                                //8.Tage Wetterseite
         linkTab.add(".//*[@id='Treitsci']/ul/li[9]/a/");                                                //9.Tage Wetterseite
-        linkTab.add(".//*[@id='Treitsci']/ul/li[10]/a/");                                                //10.Tage Wetterseite
-        linkTab.add(".//*[@id='Tcontbox']/div[2]/div[3]/div[2]/div[3]/div[2]/div[3]/div[1]/div/a[2]");    //Für 10-Tage Ansicht
+        linkTab.add(".//*[@id='Treitsci']/ul/li[10]/a/");                                               //10.Tage Wetterseite
+        linkTab.add(".//*[@id='Tcontbox']/div[2]/div[3]/div[2]/div[3]/div[2]/div[3]/div[1]/div/a[2]");  //Für 10-Tage Ansicht
     }
 }
