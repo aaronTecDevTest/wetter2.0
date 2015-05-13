@@ -26,9 +26,27 @@
         <processorPath useClasspath="true" />
         <module name="rmstest_frontend" />
         <module name="rmstest_middleware" />
-        <module name="wetter2.0_backend" />
-        <module name="wetter2.0_frontend" />
+      </profile>
+      <profile default="false" name="Annotation profile for wetter2.0_middleware" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
         <module name="wetter2.0_middleware" />
+      </profile>
+      <profile default="false" name="Annotation profile for wetter2.0_frontend" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="wetter2.0_frontend" />
+      </profile>
+      <profile default="false" name="Annotation profile for wetter2.0_backend" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="wetter2.0_backend" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">

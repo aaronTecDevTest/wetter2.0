@@ -30,13 +30,13 @@ public class TC2856_Prüfen_H3_Tag extends GenericTest_New {
         globalVar.searchStringList.add("Postkamp (Altenholz)");
         globalVar.searchStringList.add("New York");
 
-        globalVar.resultStringList.add("Wettervorhersage für Darmstadt (Hessen)");
-        globalVar.resultStringList.add("Wettervorhersage für Darmstadt (Hessen)");
-        globalVar.resultStringList.add("Wettervorhersage für Darmstadt (Hessen)");
-        globalVar.resultStringList.add("Wettervorhersage für Darmstadt (Hessen)");
-        globalVar.resultStringList.add("Wettervorhersage für Darmstadt (Hessen)");
-        globalVar.resultStringList.add("Wettervorhersage für Darmstadt (Hessen)");
-        globalVar.resultStringList.add("Wettervorhersage für Darmstadt (Hessen)");
+        globalVar.resultStringList.add("Das aktuelle Wetter für Darmstadt (Hessen)");
+        globalVar.resultStringList.add("Das aktuelle Wetter für Darmstadt (Hessen)");
+        globalVar.resultStringList.add("Das aktuelle Wetter für Darmstadt (Hessen)");
+        globalVar.resultStringList.add("Das aktuelle Wetter für Darmstadt (Hessen)");
+        globalVar.resultStringList.add("Das aktuelle Wetter für Darmstadt (Hessen)");
+        globalVar.resultStringList.add("Das aktuelle Wetter für Darmstadt (Hessen)");
+        globalVar.resultStringList.add("Das aktuelle Wetter für Darmstadt (Hessen)");
 
         //Step 1
         getBrowser();
@@ -54,7 +54,6 @@ public class TC2856_Prüfen_H3_Tag extends GenericTest_New {
                 pauseTest(500);
                 getWebElement(globalVar._INPUT_BOX).sendKeys(Keys.ARROW_DOWN);
                 setInputFeldValue(globalVar._INPUT_BOX, "\n");
-                WebElement h2Tag = getWebElement(globalVar._BOX_WETTER_h2);
 
                 WebElement h3Tag = getWebElement(globalVar._BOX_WETTER_h3);
 
@@ -71,8 +70,6 @@ public class TC2856_Prüfen_H3_Tag extends GenericTest_New {
             globalVar.stringSearch = globalVar.stringSearch + " empty list!! " + globalVar.stringResult + " AD-Elements could be not found in Web";
             this.logFailureCheckpoint(globalVar.stringSearch, globalVar.stringResult, "null");
         }
-
-
     }
 
     public boolean checkH3Tag(WebElement we) {

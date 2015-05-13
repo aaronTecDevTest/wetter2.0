@@ -31,7 +31,7 @@ public class TC2925_MetaDescription_Deutschland extends GenericTest_New {
     public void runTest() {
 
         globalVar = getGlobalVar();
-        kreis = new ArrayList<String>();
+        kreis = new ArrayList<>();
 
         globalVar.searchStringList.add("Darmstadt");
         globalVar.searchStringList.add("Paris");
@@ -100,14 +100,13 @@ public class TC2925_MetaDescription_Deutschland extends GenericTest_New {
     }
 
     /**
-     * @param args
+     * @param args String
      */
     public static void main(String[] args) {
         TC2925_MetaDescription_Deutschland test = new TC2925_MetaDescription_Deutschland();
         test.before();
         test.runTest();
         test.after();
-
     }
 
 
