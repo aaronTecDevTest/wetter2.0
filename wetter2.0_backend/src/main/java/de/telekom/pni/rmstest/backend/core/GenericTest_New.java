@@ -1307,7 +1307,7 @@ public abstract class GenericTest_New implements RMSTest_New {
      * @param
      * @param checkPointName Checkpoint name.
      * @return boolean
-     */
+     **/
     public boolean checkpoint_two_ElementsInSequence(WebElement element1,
                                                      WebElement element2, String checkPointName) {
 
@@ -1364,7 +1364,7 @@ public abstract class GenericTest_New implements RMSTest_New {
      * @param element3                     is next tab aktualday+2
      * @param checkPointName               Checkpoint name.
      * @return boolean
-     */
+     **/
     public boolean checkpoint_aktualDay_AndnextTwoDays(
             WebElement aktualday_from_3day_forecast, WebElement element2,
             WebElement element3, String checkPointName) {
@@ -1429,7 +1429,7 @@ public abstract class GenericTest_New implements RMSTest_New {
      * @param naviSteps                    are the steps for forward or backward navigation
      * @param checkPointName               Checkpoint name.
      * @return boolean
-     */
+     **/
 
     public boolean checkpoint_aktualDay_And_navigate_forward_or_backward(
             WebElement aktualday_from_3day_forecast, WebElement navigated_day,
