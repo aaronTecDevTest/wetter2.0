@@ -28,7 +28,7 @@ public class RunCreateTNGSuite {
 
     public RunCreateTNGSuite()
     {
-       // tng.setOutputDirectory(getNewPathDirectory());
+        tng.setOutputDirectory(getNewPathDirectory());
         tng.setDefaultSuiteName("RegressionsTest");
         testXML.setName("RegressionsTest");
     }
@@ -45,7 +45,7 @@ public class RunCreateTNGSuite {
         testXML.setName("TmpTest");
 
         classes.add(new XmlClass("de.telekom.pni.rmstest.backend.testng.test.SimpleTest1"));
-       // classes.add(new XmlClass("de.telekom.pni.rmstest.backend.testng.test.SimpleTest2"));
+        classes.add(new XmlClass("de.telekom.pni.rmstest.backend.testng.test.SimpleTest2"));
         testXML.setXmlClasses(classes) ;
 
        // System.out.println(testXML.getSuite().toXml());
