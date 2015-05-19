@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e2f1897-6aff-4116-8c10-7ff77ca32190" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/global/GlobalVarWetterInfo_Preview.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/global/GlobalVarWetterInfo_Preview.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4436/TC2770_Suche_nach_Wetterkarten.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4436/TC2770_Suche_nach_Wetterkarten.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4303/TC2907_Prüfen_von_Verlinkung_SEO_Power.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4303/TC2907_Prüfen_von_Verlinkung_SEO_Power.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4329/TC2909_Top_Treffer_in_Suchergebnisseite.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4329/TC2909_Top_Treffer_in_Suchergebnisseite.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4297/TC2928_Breadcrumb_für_Orte_im_Ausland.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4297/TC2928_Breadcrumb_für_Orte_im_Ausland.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US5430/TC3016_Direkte_Verlinkung_Wetterdetailsseite.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US5430/TC3016_Direkte_Verlinkung_Wetterdetailsseite.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter.java" afterPath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC2858_Favoritenmodul_Prüfen_der_Überschrift_Wettervorhersage.java" afterPath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC2858_Favoritenmodul_Prüfen_der_Überschrift_Wettervorhersage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten.java" afterPath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4295/TC2853_Prüfen_von_HTML_Title.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4295/TC2853_Prüfen_von_HTML_Title.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC2858_Favoritenmodul_Prüfen_der_Überschrift_Wettervorhersage.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC2858_Favoritenmodul_Prüfen_der_Überschrift_Wettervorhersage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wetter2.0.iws" />
@@ -55,75 +49,7 @@
     <favorites_list name="wetter2.0" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12686567">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter#0;class#TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter#0" expanded="true" />
-                <element signature="method#runTest#0;class#TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter#0" expanded="true" />
-                <element signature="e#2149#2153#0" expanded="true" />
-                <element signature="method#main#0;class#TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter#0" expanded="true" />
-                <element signature="method#checkClickeElement#0;class#TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter#0" expanded="true" />
-                <element signature="method#checkClickButton#0;class#TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter#0" expanded="true" />
-                <element signature="method#setRunningConfiguration#0;class#TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TC2858_Favoritenmodul_Prüfen_der_Überschrift_Wettervorhersage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC2858_Favoritenmodul_Prüfen_der_Überschrift_Wettervorhersage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="50" column="60" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
-              <folding>
-                <element signature="method#TC2858_Favoritenmodul_Prüfen_der_Überschrift_Wettervorhersage#0;class#TC2858_Favoritenmodul_Prüfen_der_Überschrift_Wettervorhersage#0" expanded="true" />
-                <element signature="e#2180#2184#0" expanded="true" />
-                <element signature="e#2391#2427#0" expanded="true" />
-                <element signature="e#2485#2546#0" expanded="true" />
-                <element signature="e#2581#2617#0" expanded="true" />
-                <element signature="e#2675#2736#0" expanded="true" />
-                <element signature="e#2771#2807#0" expanded="true" />
-                <element signature="e#2864#2925#0" expanded="true" />
-                <element signature="e#3071#3131#0" expanded="true" />
-                <element signature="e#3276#3336#0" expanded="true" />
-                <element signature="e#3481#3541#0" expanded="true" />
-                <element signature="e#3609#3614#0" expanded="true" />
-                <element signature="method#main#0;class#TC2858_Favoritenmodul_Prüfen_der_Überschrift_Wettervorhersage#0" expanded="true" />
-                <element signature="method#checkClickeElement#0;class#TC2858_Favoritenmodul_Prüfen_der_Überschrift_Wettervorhersage#0" expanded="true" />
-                <element signature="method#checkClickButton#0;class#TC2858_Favoritenmodul_Prüfen_der_Überschrift_Wettervorhersage#0" expanded="true" />
-                <element signature="method#setRunningConfiguration#0;class#TC2858_Favoritenmodul_Prüfen_der_Überschrift_Wettervorhersage#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="method#TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten#0;class#TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten#0" expanded="true" />
-                <element signature="method#runTest#0;class#TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten#0" expanded="true" />
-                <element signature="e#2183#2187#0" expanded="true" />
-                <element signature="e#2494#2499#0" expanded="true" />
-                <element signature="method#main#0;class#TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten#0" expanded="true" />
-                <element signature="method#checkClickeElement#0;class#TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten#0" expanded="true" />
-                <element signature="method#checkClickButton#0;class#TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten#0" expanded="true" />
-                <element signature="method#setRunningConfiguration#0;class#TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -1079,7 +1005,13 @@
       <option name="project" value="LOCAL" />
       <updated>1432029710434</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="In Progress">
+      <created>1432046343668</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1432046343668</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1090,7 +1022,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1088" y="-8" width="1096" height="1936" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32658798" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1100,7 +1032,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291506" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996064" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37286204" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37286204" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41268075" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2046332" sideWeight="0.87689716" order="0" side_tool="false" content_ui="combo" />
@@ -1610,28 +1542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4297/TC2928_Breadcrumb_für_Orte_im_Ausland.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33278283">
-          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-          <folding>
-            <element signature="method#runTest#0;class#TC2928_Breadcrumb_für_Orte_im_Ausland#0" expanded="true" />
-            <element signature="e#2222#2233#0" expanded="true" />
-            <element signature="method#main#0;class#TC2928_Breadcrumb_für_Orte_im_Ausland#0" expanded="true" />
-            <element signature="method#setRunningConfiguration#0;class#TC2928_Breadcrumb_für_Orte_im_Ausland#0" expanded="true" />
-            <element signature="method#checkBreadcrumbLink#0;class#TC2928_Breadcrumb_für_Orte_im_Ausland#0" expanded="true" />
-            <element signature="e#9273#9280#0" expanded="true" />
-            <element signature="e#9293#9310#0" expanded="true" />
-            <element signature="e#9561#9568#0" expanded="true" />
-            <element signature="e#9581#9598#0" expanded="true" />
-            <element signature="e#9976#9983#0" expanded="true" />
-            <element signature="e#9996#10013#0" expanded="true" />
-            <element signature="e#10390#10397#0" expanded="true" />
-            <element signature="e#10410#10427#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34008437">
@@ -1664,9 +1574,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7602612">
+          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter#0;class#TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter#0" expanded="true" />
+            <element signature="e#2149#2153#0" expanded="true" />
+            <element signature="method#main#0;class#TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter#0" expanded="true" />
+            <element signature="method#checkClickeElement#0;class#TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter#0" expanded="true" />
+            <element signature="method#checkClickButton#0;class#TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter#0" expanded="true" />
+            <element signature="method#setRunningConfiguration#0;class#TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC2858_Favoritenmodul_Prüfen_der_Überschrift_Wettervorhersage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-0.5699627">
           <caret line="50" column="60" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
           <folding>
             <element signature="method#TC2858_Favoritenmodul_Prüfen_der_Überschrift_Wettervorhersage#0;class#TC2858_Favoritenmodul_Prüfen_der_Überschrift_Wettervorhersage#0" expanded="true" />
@@ -1708,19 +1634,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter.java">
+    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4297/TC2928_Breadcrumb_für_Orte_im_Ausland.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12686567">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.063432835">
+          <caret line="102" column="37" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter#0;class#TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter#0" expanded="true" />
-            <element signature="method#runTest#0;class#TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter#0" expanded="true" />
-            <element signature="e#2149#2153#0" expanded="true" />
-            <element signature="method#main#0;class#TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter#0" expanded="true" />
-            <element signature="method#checkClickeElement#0;class#TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter#0" expanded="true" />
-            <element signature="method#checkClickButton#0;class#TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter#0" expanded="true" />
-            <element signature="method#setRunningConfiguration#0;class#TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter#0" expanded="true" />
+            <element signature="method#runTest#0;class#TC2928_Breadcrumb_für_Orte_im_Ausland#0" expanded="true" />
+            <element signature="method#main#0;class#TC2928_Breadcrumb_für_Orte_im_Ausland#0" expanded="true" />
+            <element signature="method#setRunningConfiguration#0;class#TC2928_Breadcrumb_für_Orte_im_Ausland#0" expanded="true" />
+            <element signature="method#checkBreadcrumbLink#0;class#TC2928_Breadcrumb_für_Orte_im_Ausland#0" expanded="true" />
           </folding>
         </state>
       </provider>
