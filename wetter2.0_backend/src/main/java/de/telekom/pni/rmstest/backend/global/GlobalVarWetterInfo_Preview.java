@@ -41,7 +41,7 @@ public class GlobalVarWetterInfo_Preview extends GlobalVar {
         super._BOX_WETTER__EINSTELLUNG_BUTTON = ".//*[@id='Tcontbox']/div[2]/div[3]/div[2]/div[1]/p";
         super._BOX_WETTER__BREADCRUMB = ".//*[@id='Tbcrumbinner']/div";
         super._BOX_WETTER__BREADCRUMB_aLink = ".//*[@id='Tbcrumbinner']/div/a[*]";
-        super._BOX_WETTER_h1 = ".//*[@id='Tbcrumbinner']/div/h1";
+        super._BOX_WETTER_h1 = "//*[@id=\"Tbcrumbinner\"]/div/h1[*]/b";
         super._BOX_WETTER_h2 = ".//*[@id='Tcontbox']/div[2]/div[3]/div[2]/div[1]/h2";
         super._BOX_WETTER_h3 = ".//*[@id='Tcontboxi']/div/div[12]";
 

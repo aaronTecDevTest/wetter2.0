@@ -83,7 +83,6 @@ public class TC2853_Prüfen_von_HTML_Title extends GenericTest_New {
 
                 if (checkTitle()) {
                     globalVar.stringSearch = "String" + globalVar.stringResult + " was found in Web";
-                    //this.logSuccessCheckpoint(globalVar.stringResult, listOfAutoSuggest.get(j).getText());
                 } else {
                     globalVar.stringSearch = " " + globalVar.stringResult + " was not found in Web";
                     this.logFailureCheckpoint(globalVar.stringSearch, globalVar.stringResult, "No String match!");

@@ -57,7 +57,7 @@ public class TC2694_Fehlschreibweisen extends GenericTest_New {
         globalVar.resultStringList.add("Duisburg");
 
         //Um IE zu testen!!
-      //  setRunningConfiguration(new RunningConfiguration_New("CH", globalVar.__StartSeiteFavoriten__));
+       // setRunningConfiguration(new RunningConfiguration_New("CH", globalVar.__StartSeiteFavoriten__));
 
         //Step 1
         getBrowser();

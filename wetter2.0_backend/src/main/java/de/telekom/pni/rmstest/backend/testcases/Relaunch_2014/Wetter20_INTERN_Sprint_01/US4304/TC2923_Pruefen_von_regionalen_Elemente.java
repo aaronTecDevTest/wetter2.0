@@ -78,7 +78,7 @@ public class TC2923_Pruefen_von_regionalen_Elemente extends GenericTest_New {
                     //this.logSuccessCheckpoint(globalVar.stringResult, listOfAutoSuggest.get(j).getText());
                 } else {
                     globalVar.stringSearch = " " + globalVar.stringResult + " was not found in Web";
-                    this.logFailureCheckpoint(globalVar.stringSearch, globalVar.stringResult, "No String match!");//listOfAutoSuggest.get(i).getText());
+                    this.logFailureCheckpoint(globalVar.stringSearch, globalVar.stringResult, "No String match!");
                 }
             }
         } catch (Exception e) {

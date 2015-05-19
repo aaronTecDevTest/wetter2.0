@@ -31,7 +31,7 @@ public class TC2907_Prüfen_von_Verlinkung_SEO_Power extends GenericTest_New {
 
         //Gilt nur für t-online.de/wetter
         String seoPower;
-        WebElement seoPowerLinke = null;
+        WebElement seoPowerLinke;
 
         if (rc == null) {
             globalVar.__StartSeiteFavoriten__ = "http://cm7prev.ada.t-online.de/toiPortal/servlet/wetter/sp_moskau/12347708";
@@ -52,14 +52,23 @@ public class TC2907_Prüfen_von_Verlinkung_SEO_Power extends GenericTest_New {
         globalVar.searchStringList.add("London");
         globalVar.searchStringList.add("Kapstadt");
 
-        globalVar.resultStringList.add("wetter-deutschland/hessen/kreis-gross-gerau/wetter-gross-gerau/K06433006");
+        globalVar.resultStringList.add("ww.wetter.info");
+        globalVar.resultStringList.add("ww.wetter.info");
+        globalVar.resultStringList.add("ww.wetter.info");
+        globalVar.resultStringList.add("ww.wetter.info");
+        globalVar.resultStringList.add("ww.wetter.info");
+        globalVar.resultStringList.add("ww.wetter.info");
+        globalVar.resultStringList.add("ww.wetter.info");
+        globalVar.resultStringList.add("ww.wetter.info");
+
+       /* globalVar.resultStringList.add("wetter-deutschland/hessen/kreis-gross-gerau/wetter-gross-gerau/K06433006");
         globalVar.resultStringList.add("wetter-frankreich/ile-de-france/wetter-paris/N-2085971");
         globalVar.resultStringList.add("wetter-deutschland/rheinland-pfalz/kreisfreie-stadt-zweibruecken/wetter-zweibruecken/K07320000");
         globalVar.resultStringList.add("wetter-deutschland/hessen/kreisfreie-stadt-offenbach-am-main/wetter-offenbach-am-main/K06413000");
         globalVar.resultStringList.add("wetter-vereinigte-staaten/illinois/wetter-chicago/Ufee8ca65");
         globalVar.resultStringList.add("wetter-demokratische-republik-kongo/kinshasa/wetter-kinshasa/N-2843631");
         globalVar.resultStringList.add("wetter-vereinigtes-konigreich/england/wetter-london/N-3578172");
-        globalVar.resultStringList.add("wetter-sudafrika/westkap/wetter-kapstadt/N-1785105");
+        globalVar.resultStringList.add("wetter-sudafrika/westkap/wetter-kapstadt/N-1785105");*/
 
         try {
             //Spet 1
@@ -90,7 +99,7 @@ public class TC2907_Prüfen_von_Verlinkung_SEO_Power extends GenericTest_New {
                     globalVar.stringSearch = " " + globalVar.stringResult + " was not found in Web";
                     this.logFailureCheckpoint(globalVar.stringSearch, globalVar.stringResult, "No String match!");
                 }
-                getWebElement(globalVar._INPUT_BOX).clear();
+                getBrowser().navigate().back();
             }
         } catch (Exception e) {
             globalVar.stringSearch = globalVar.stringSearch + " empty list!! " + globalVar.stringResult + " AD-Elements could be not found in Web";

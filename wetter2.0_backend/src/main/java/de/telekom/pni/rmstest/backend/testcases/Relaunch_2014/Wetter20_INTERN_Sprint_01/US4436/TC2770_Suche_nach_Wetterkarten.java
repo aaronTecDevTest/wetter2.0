@@ -34,11 +34,11 @@ public class TC2770_Suche_nach_Wetterkarten extends GenericTest_New {
         test.before();
         test.runTest();
         test.after();
-
     }
 
     /* (non-Javadoc)
-     * @see de.telekom.pni.rmstest.backend.core.GenericTest_New#setRunningConfiguration(de.telekom.pni.rmstest.backend.config.RunningConfiguration_New)
+     * @see de.telekom.pni.rmstest.backend.core.GenericTest_New#setRunningConfiguration
+     * (de.telekom.pni.rmstest.backend.config.RunningConfiguration_New)
      */
     @Override
     public void setRunningConfiguration(RunningConfiguration_New runningConfiguration) {

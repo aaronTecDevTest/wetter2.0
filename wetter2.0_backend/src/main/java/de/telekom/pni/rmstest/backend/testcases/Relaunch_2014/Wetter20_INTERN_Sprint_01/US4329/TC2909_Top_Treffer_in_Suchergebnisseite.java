@@ -30,7 +30,7 @@ public class TC2909_Top_Treffer_in_Suchergebnisseite extends GenericTest_New {
     private ArrayList<Target> picture = new ArrayList<Target>();
     public ScreenRegion screenRegion = new DesktopScreenRegion(1);
 
-    public String picOrdner = "U:/01_Dev/Wetter_2.0/Testcode/workspace/wetter2.0/wetter2.0_backend/src/main/resources/sikuli.images/";
+    public String picOrdner = "C:\\Users\\a.kutekidila\\Dev\\GitHub\\wetter2.0\\wetter2.0_backend\\src\\main\\resources\\sikuli.images\\";
 
     public Target berlin = new ImageTarget(new File(picOrdner + "TC2909_Berlin.PNG"));
     public Target newYork = new ImageTarget(new File(picOrdner + "TC2909_New_York.PNG"));
@@ -63,6 +63,7 @@ public class TC2909_Top_Treffer_in_Suchergebnisseite extends GenericTest_New {
         picture.add(paris);
         picture.add(barcelona);
 
+        setRunningConfiguration(new RunningConfiguration_New("CH", globalVar.__StartSeiteFavoriten__));
         //Step 1
         this.getBrowser();
 

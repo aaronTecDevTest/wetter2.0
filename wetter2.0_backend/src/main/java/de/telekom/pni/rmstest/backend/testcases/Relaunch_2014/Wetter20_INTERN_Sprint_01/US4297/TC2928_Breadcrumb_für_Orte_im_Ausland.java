@@ -20,7 +20,7 @@ public class TC2928_Breadcrumb_für_Orte_im_Ausland extends GenericTest_New {
 
         globalVar.searchStringList.add("Paris");
 
-        globalVar.resultStringList.add("Sie sind hier: Wetter.info > Weltwetter > Wetter Frankreich > Wetter Region Île-de-France > Wetter Paris");
+        globalVar.resultStringList.add("Wetter Frankreich > Wetter Region Île-de-France > Wetter Paris");
 
         //Step 1
         getBrowser();
@@ -238,8 +238,7 @@ public class TC2928_Breadcrumb_für_Orte_im_Ausland extends GenericTest_New {
 
     public void checkBreadcrumbLink(String mainTitel, int i) {
 
-        String titel; //= null;
-
+        String titel;
         getWebElement(globalVar.__BREADCRUMB_LINK1__).click();
         pauseTest(500);
         titel = getBrowser().getTitle();
@@ -248,7 +247,6 @@ public class TC2928_Breadcrumb_für_Orte_im_Ausland extends GenericTest_New {
         }
         getBrowser().navigate().back();
 
-        //
         getWebElement(globalVar.__BREADCRUMB_LINK2__).click();
         pauseTest(500);
         titel = getBrowser().getTitle();
@@ -257,9 +255,8 @@ public class TC2928_Breadcrumb_für_Orte_im_Ausland extends GenericTest_New {
         }
         getBrowser().navigate().back();
 
-        //titel = "";
-        if ((i > 0)) {
 
+        if ((i > 0)) {
             getWebElement(globalVar.__BREADCRUMB_LINK3_Temp__).click();
         } else {
             getWebElement(globalVar.__BREADCRUMB_LINK3__).click();
@@ -271,7 +268,7 @@ public class TC2928_Breadcrumb_für_Orte_im_Ausland extends GenericTest_New {
         }
         getBrowser().navigate().back();
 
-        //titel = "";
+
         if (i > 0) {
 
             getWebElement(globalVar.__BREADCRUMB_LINK4_Temp__).click();

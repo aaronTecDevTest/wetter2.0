@@ -15,7 +15,7 @@ public class TC3016_Direkte_Verlinkung_Wetterdetailsseite extends GenericTest_Ne
     @Override
     public void runTest() {
 
-        boolean isSuchergebnisOK = false;
+        boolean isSuchergebnisOK ;
         globalVar = getGlobalVar();
 
         globalVar.searchStringList.add("Berlin");
@@ -27,13 +27,14 @@ public class TC3016_Direkte_Verlinkung_Wetterdetailsseite extends GenericTest_Ne
         globalVar.searchStringList.add("New York");
 
         globalVar.resultStringList.add("kreisfreie-stadt-berlin/wetter-berlin/K11000000");
-        globalVar.resultStringList.add("wetter-vereinigtes-konigreich/england/wetter-london/N-3578172");
+        globalVar.resultStringList.add("wetter-vereinigtes-koenigreich/england/wetter-london/N-3578172");
         globalVar.resultStringList.add("wetter-frankreich/ile-de-france/wetter-paris/N-2085971");
         globalVar.resultStringList.add("wetter-australien/south-australia/wetter-adelaide/S946750");
         globalVar.resultStringList.add("wetter-vereinigte-staaten/new-mexico/wetter-albuquerque/S723650");
-        globalVar.resultStringList.add("wetter-vereinigtes-konigreich/nordirland/wetter-belfast/N-356297");
+        globalVar.resultStringList.add("wetter-vereinigtes-koenigreich/nordirland/wetter-belfast/N-3562978");
         globalVar.resultStringList.add("wetter-vereinigte-staaten/new-york/wetter-new-york-city/U03690c3c");
 
+        setRunningConfiguration(new RunningConfiguration_New("CH", globalVar.__StartSeiteFavoriten__));
         //Step 1
         this.getBrowser();
 
@@ -48,15 +49,17 @@ public class TC3016_Direkte_Verlinkung_Wetterdetailsseite extends GenericTest_Ne
 
                 setInputFeldValue(globalVar._INPUT_BOX, globalVar.stringSearch);
                 getWebElement(globalVar._INPUT_BOX).submit();
-                openSuchergebnisOrte(globalVar._SUCHERGEBNISSEITE_AUSKLAPP_BUTTONS);
-
+                pauseTest(1000);
                 WebElement elementToClick = getWebElement(globalVar._SUCHERGEBNISSEITE_TOP_ORT_P);
+                openSuchergebnisOrte(globalVar._SUCHERGEBNISSEITE_AUSKLAPP_BUTTONS);
                 isSuchergebnisOK = checkDirectLink(elementToClick, globalVar.stringResult);
 
                 if (isSuchergebnisOK) {
                     this.logSuccessCheckpoint("Prüfen des Verlinkung:", "Wetterseite für die 3-Tage-Ansicht wird angezeigt.");
                 } else {
-                    this.logFailureCheckpoint("Fehler (" + globalVar.searchStringList.get(i) + "):", "Gesuchten Suchergebnissen nicht gefunden bitte prüfen.", "null");
+                    this.logFailureCheckpoint("Fehler (" + globalVar.searchStringList.get(i) + "):",
+                                                "Gesuchten Suchergebnissen nicht gefunden bitte prüfen.",
+                                                "null");
                 }
             }
 
@@ -68,12 +71,6 @@ public class TC3016_Direkte_Verlinkung_Wetterdetailsseite extends GenericTest_Ne
 
     private boolean checkDirectLink(WebElement elementToClick, String url) {
         boolean isOK = false;
-        /*String teilURL = "wetter/wetter-deutschland/berlin/kreisfreie-stadt-berlin/wetter-berlin/K11000000";
-		elementLink.click();
-		String currentURL = getBrowser().getCurrentUrl();
-		if(currentURL.contains(teilURL)){
-			isOK = true;
-		}*/
         String elementUrl = elementToClick.getAttribute("href");
         if (elementUrl.contains(url)) {
             isOK = true;
