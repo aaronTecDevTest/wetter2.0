@@ -1,6 +1,7 @@
 package de.telekom.pni.rmstest.backend.global;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class GlobalVar {
     public String testCaseShortName;
@@ -86,6 +87,7 @@ public class GlobalVar {
     public ArrayList<String> searchStringList;
     public ArrayList<String> resultStringList;
     public ArrayList<String> linkTab;
+    public HashMap<String,String> redationsElement;
 
     //Testwebside
     public String __WEBSIDE__;

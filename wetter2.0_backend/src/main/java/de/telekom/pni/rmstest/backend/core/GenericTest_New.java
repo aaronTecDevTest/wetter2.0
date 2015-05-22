@@ -22,13 +22,7 @@ import junit.framework.TestResult;
 
 import org.apache.log4j.Logger;
 //import org.hsqldb.persist.Log;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.Point;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
@@ -53,6 +47,8 @@ import de.telekom.pni.rmstest.backend.utilities.TestingUtil;
 
 import com.gargoylesoftware.htmlunit.DefaultCredentialsProvider;
 import com.gargoylesoftware.htmlunit.WebClient;
+
+import javax.swing.tree.ExpandVetoException;
 
 /**
  * Die Klasse GenericTest.java ist eine alternative Implementierung für Testfälle.
@@ -413,6 +409,7 @@ public abstract class GenericTest_New implements RMSTest_New {
         try {
 
             //return new WebDriverWait (getBrowser(),10).until(ExpectedConditions.presenceOfElementLocated(By.xpath(xPath)));
+            elementHighlight(getBrowser().findElement(By.xpath(xPath)));
             return getBrowser().findElement(By.xpath(xPath));
         } catch (Exception ex) {
             getStepLogger().logStep(
@@ -756,6 +753,7 @@ public abstract class GenericTest_New implements RMSTest_New {
      */
     public WebElement getParent(WebElement el) {
         try {
+            elementHighlight(el.findElement(By.xpath("..")));
             return el.findElement(By.xpath(".."));
         } catch (Exception e) {
             return null;
@@ -1949,11 +1947,22 @@ public abstract class GenericTest_New implements RMSTest_New {
 
     public WebElement getWebElement(String xPath) {
         WebElement element = getByXPath(xPath);
+        elementHighlight(element);
         return element;
     }
 
     public List<WebElement> getWebElements(String xPath) {
-        List<WebElement> elements = getBrowser().findElements(By.xpath(xPath));
+        List<WebElement> elements = null;
+
+        try {
+            elements = getBrowser().findElements(By.xpath(xPath));
+            //WebElement ele = elements.get(0);
+            //elementHighlight(ele.findElement(By.xpath("..")));
+        }
+      catch (Exception e)
+        {
+            System.out.println(e.getStackTrace());
+      }
         return elements;
     }
 
@@ -1978,11 +1987,10 @@ public abstract class GenericTest_New implements RMSTest_New {
     }
 
     public List<WebElement> getListAutoSuggest(String autoSuggest, String autoSuggestList) {
-        //boolean isDispla = elementIsDisplay(autoSuggest);
-
-        //if(isDispla)
         if (getWebElement(autoSuggest).isDisplayed()) {
             List<WebElement> e = getBrowser().findElements(By.xpath(autoSuggestList));
+            //WebElement element = e.get(0).findElement(By.xpath(".."));
+            //elementHighlight(element);
             return e;
         }
         return null;
@@ -2071,6 +2079,9 @@ public abstract class GenericTest_New implements RMSTest_New {
      * @author a. Kutekidila
      */
 
+
+
+
     public GlobalVar getGlobalVar() {
         GlobalVar temp = new GlobalVarWetterInfo_Preview();
 
@@ -2139,4 +2150,19 @@ public abstract class GenericTest_New implements RMSTest_New {
         List<String> winList = new ArrayList<String>(winSet);
         return winList;
     }
+
+    public void elementHighlight(WebElement element) {
+        for (int i = 0; i < 2; i++) {
+         /*   JavascriptExecutor js = (JavascriptExecutor) getBrowser();
+            js.executeScript(
+                    "arguments[0].setAttribute('style', arguments[1]);",
+                    element, "color: red; border: 3px solid red;");
+            pauseTest(100);
+            js.executeScript(
+                    "arguments[0].setAttribute('style', arguments[1]);",
+                    element, "");
+            pauseTest(100);*/
+        }
+    }
+
 }

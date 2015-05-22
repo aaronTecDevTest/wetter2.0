@@ -145,6 +145,9 @@ public class WebDriverManager_New {
         profile.setPreference("general.appversion.override", "");
         profile.setPreference("general.description.override", "");
         profile.setPreference("general.platform.override", "");
+        //Pop Up
+        profile.setPreference("print.always_print_silent", true);
+        profile.setPreference("print.show_print_progress", false);
         log.debug("FirefoxDriver configured successfully");
         return profile;
     }
@@ -169,6 +172,7 @@ public class WebDriverManager_New {
 //		ieCapabilities.setCapability(InternetExplorerDriver.BROWSER_ATTACH_TIMEOUT, "TimeSpan.FromSeconds(timeOut");
 //		ieCapabilities.setCapability(InternetExplorerDriver.UNEXPECTED_ALERT_BEHAVIOR, "InternetExplorerUnexpectedAlertBehavior.Ignore");
         ieCapabilities.setVersion("8");
+        ieCapabilities.setCapability("disable-popup-blocking", true);
         log.debug("IeDriver configured successfully");
         return ieCapabilities;
     }

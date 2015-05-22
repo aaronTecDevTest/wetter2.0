@@ -1,6 +1,7 @@
 package de.telekom.pni.rmstest.backend.global;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 
 public class GlobalVarWetterInfo_Preview extends GlobalVar {
@@ -96,13 +97,13 @@ public class GlobalVarWetterInfo_Preview extends GlobalVar {
         super.searchStringList = new ArrayList<>();
         super.resultStringList = new ArrayList<>();
         super.linkTab = new ArrayList<>();
+        super.redationsElement = new HashMap<>();
 
         //Testlink
         super.__WEBSIDE__ = "www.wetter.info";
         super.__AutoSuggest__ = "http://portal.wetter.info/winfo/wetter-deutschland/hessen/kreisfreie-stadt-darmstadt/wetter-darmstadt/K06411000?preview=1";
         super.__Suchergebnisseite = "http://cm7prev.ada.t-online.de/toiPortal/servlet/suche/sp_frank/62174516";
         super.__StartSeiteFavoriten__ = "http://cm7prev.ada.t-online.de/toiPortal/servlet/-/sp_moskau/17568854";
-        //"http://cm7prev.ada.t-online.de/toiPortal/servlet/-/sp_Rom/17568854"; //Toi: http://cm7prev.ada.t-online.de/toiPortal/servlet/wetter/sp_moskau/12347708
         super.__SUCHWEBSIDE_3TageAnsicht__ = "http://portal.wetter.info/winfo/wetter-deutschland/hessen/kreisfreie-stadt-darmstadt/wetter-darmstadt/K06411000?preview=1";
         super.__SUCHWEBSIDE_3TageAnsicht_Preview__ = "http://portal.wetter.info/winfo/wetter-deutschland/hessen/kreisfreie-stadt-darmstadt/wetter-darmstadt/K06411000?preview=1";
         super.__SUCHESTATION_ID__ = "http://portal.wetter.info/winfo/wetter-deutschland/hessen/kreisfreie-stadt-darmstadt/wetter-darmstadt/";
@@ -150,6 +151,7 @@ public class GlobalVarWetterInfo_Preview extends GlobalVar {
         super.__All_Links__ = ".//a";
 
 
+        //Breadcrumb  LinkT-Tab
         linkTab.add(".//*[@id='T-self.parsedId-1']/div[2]/span[6]");                                    //3-Tage Wetterseite (Übersicht)
         linkTab.add(".//*[@id='Treitsci']/ul/li[1]/a/");                                                //1.Tage Wetterseite
         linkTab.add(".//*[@id='Treitsci']/ul/li[2]/a/");                                                //2.Tage Wetterseite
@@ -162,5 +164,32 @@ public class GlobalVarWetterInfo_Preview extends GlobalVar {
         linkTab.add(".//*[@id='Treitsci']/ul/li[9]/a/");                                                //9.Tage Wetterseite
         linkTab.add(".//*[@id='Treitsci']/ul/li[10]/a/");                                               //10.Tage Wetterseite
         linkTab.add(".//*[@id='Tcontbox']/div[2]/div[3]/div[2]/div[3]/div[2]/div[3]/div[1]/div/a[2]");  //Für 10-Tage Ansicht
+
+        //Redeaktionalle Elementen
+
+        redationsElement.put("Logo"                         ,"//*[@id=\"Tlogo2\"]/img");
+        redationsElement.put("Suchfeld"                     ,"//*[@id=\"searchPattern\"]");
+        redationsElement.put("PoweredBy (T.O)"              ,"//*[@id=\"Twtosearch_pow\"]/a");
+        redationsElement.put("Navigationsleiste"            ,"//*[@id=\"Twnav\"]");
+        redationsElement.put("Breadcrumb"                   ,"//*[@id=\"Tbcrumbinner\"]");
+        redationsElement.put("Favoritenmodul"               ,"//*[@id=\"Tcontbox\"]/div[2]/div[3]/div[2]/div[1]");
+        redationsElement.put("WetterDatenBox"               ,"//*[@id=\"Tcontbox\"]/div[2]/div[3]");
+        redationsElement.put("WetterKarten"                 ,"//*[@id=\"Tcontboxi\"]/div/div[3]/div/div");
+        redationsElement.put("Twinter (W.I)"                ,"//*[@id=\"T-63329502\"]");
+        redationsElement.put("FacebookIcon (W.I)"           ,"//*[@id=\"T-63329326\"]");
+
+        redationsElement.put("WetterBox1/2"                 ,"//*[@id=\"Tcontboxi\"]/div/div[7]");
+        redationsElement.put("wetterBox3/4"                 ,"//*[@id=\"Tcontboxi\"]/div/div[8]");
+
+        redationsElement.put("SEO-Link"                     ,"//*[@id=\"T-52310918\"]/div[2]/div");
+
+        redationsElement.put("wetterBox5/6"                 ,"//*[@id=\"Tcontboxi\"]/div/div[10]");
+        redationsElement.put("wetterBox7/8"                 ,"//*[@id=\"Tcontboxi\"]/div/div[11]");
+
+        redationsElement.put("SEO-Text"                     ,"//*[@id=\"Tcontboxi\"]/div/div[12]");
+        redationsElement.put("WetterNachrichten"            ,"//*[@id=\"T-44091352\"]/div[1]");
+
+        redationsElement.put("Footblock"                    ,"//*[@id=\"Tfootblock\"]");
+        redationsElement.put("Copy Right"                   ,"//*[@id=\"Tcopyr\"]");
     }
 }

@@ -3,7 +3,6 @@ package de.telekom.pni.rmstest.backend.testcases.Relaunch_2014.Wetter20_INTERN_S
 import de.telekom.pni.rmstest.backend.config.RunningConfiguration_New;
 import de.telekom.pni.rmstest.backend.core.GenericTest_New;
 import de.telekom.pni.rmstest.backend.global.GlobalVar;
-import org.openqa.selenium.WebDriver;
 
 
 public class TC2922_Pruefen_von_globalen_Elemente extends GenericTest_New {
@@ -17,11 +16,12 @@ public class TC2922_Pruefen_von_globalen_Elemente extends GenericTest_New {
 
         globalVar = getGlobalVar();
 
-        globalVar.searchStringList.add("<div id=\"vmsky\">");
-        globalVar.searchStringList.add("<div id=\"vmpop\">");
-        globalVar.searchStringList.add("<div id=\"vmsb\">");
-        globalVar.searchStringList.add("<div id=\"vmcadsl\">");
-        globalVar.searchStringList.add("<div id=\"vmcadsr\">");
+        globalVar.searchStringList.add("Paris");
+        globalVar.searchStringList.add("Darmstadt");
+        globalVar.searchStringList.add("New York");
+        globalVar.searchStringList.add("Kagul");
+        globalVar.searchStringList.add("Kairo");
+
 
         //Step 1
         getBrowser();
@@ -74,7 +74,7 @@ public class TC2922_Pruefen_von_globalen_Elemente extends GenericTest_New {
 
             switch (i) {
                 case 0:
-                    if (!checkTageAnsichtElement()) {
+                    if (!checkTageAnsichtElement(i,"","")) {
                         check = false;
                         this.logFailureCheckpoint(Integer.toString(i), "Element not Found", "Element not Found");
                     }
@@ -82,7 +82,7 @@ public class TC2922_Pruefen_von_globalen_Elemente extends GenericTest_New {
                     break;
 
                 case 1:
-                    if (!checkTageAnsichtElement()) {
+                    if (!checkTageAnsichtElement(i,"","")) {
                         check = false;
                         this.logFailureCheckpoint(Integer.toString(i), "Element not Found", "Element not Found");
                     }
@@ -91,7 +91,7 @@ public class TC2922_Pruefen_von_globalen_Elemente extends GenericTest_New {
                     break;
 
                 case 2:
-                    if (!checkTageAnsichtElement()) {
+                    if (!checkTageAnsichtElement(i,"","")) {
                         check = false;
                         this.logFailureCheckpoint(Integer.toString(i), "Element not Found", "Element not Found");
                     }
@@ -99,7 +99,7 @@ public class TC2922_Pruefen_von_globalen_Elemente extends GenericTest_New {
                     break;
 
                 case 3:
-                    if (!checkTageAnsichtElement()) {
+                    if (!checkTageAnsichtElement(i,"","")) {
                         check = false;
                         this.logFailureCheckpoint(Integer.toString(i), "Element not Found", "Element not Found");
                     }
@@ -107,7 +107,7 @@ public class TC2922_Pruefen_von_globalen_Elemente extends GenericTest_New {
                     break;
 
                 case 4:
-                    if (!checkTageAnsichtElement()) {
+                    if (!checkTageAnsichtElement(i,"","")) {
                         check = false;
                         this.logFailureCheckpoint(Integer.toString(i), "Element not Found", "Element not Found");
                     }
@@ -115,7 +115,7 @@ public class TC2922_Pruefen_von_globalen_Elemente extends GenericTest_New {
                     break;
 
                 case 5:
-                    if (!checkTageAnsichtElement()) {
+                    if (!checkTageAnsichtElement(i,"","")) {
                         check = false;
                         this.logFailureCheckpoint(Integer.toString(i), "Element not Found", "Element not Found");
                     }
@@ -123,7 +123,7 @@ public class TC2922_Pruefen_von_globalen_Elemente extends GenericTest_New {
                     break;
 
                 case 6:
-                    if (!checkTageAnsichtElement()) {
+                    if (!checkTageAnsichtElement(i,"","")) {
                         check = false;
                         this.logFailureCheckpoint(Integer.toString(i), "Element not Found", "Element not Found");
                     }
@@ -131,7 +131,7 @@ public class TC2922_Pruefen_von_globalen_Elemente extends GenericTest_New {
                     break;
 
                 case 7:
-                    if (!checkTageAnsichtElement()) {
+                    if (!checkTageAnsichtElement(i,"","")) {
                         check = false;
                         this.logFailureCheckpoint(Integer.toString(i), "Element not Found", "Element not Found");
                     }
@@ -139,7 +139,7 @@ public class TC2922_Pruefen_von_globalen_Elemente extends GenericTest_New {
                     break;
 
                 case 8:
-                    if (!checkTageAnsichtElement()) {
+                    if (!checkTageAnsichtElement(i,"","")) {
                         check = false;
                         this.logFailureCheckpoint(Integer.toString(i), "Element not Found", "Element not Found");
                     }
@@ -147,7 +147,7 @@ public class TC2922_Pruefen_von_globalen_Elemente extends GenericTest_New {
                     break;
 
                 case 9:
-                    if (!checkTageAnsichtElement()) {
+                    if (!checkTageAnsichtElement(i,"","")) {
                         check = false;
                         this.logFailureCheckpoint(Integer.toString(i), "Element not Found", "Element not Found");
                     }
@@ -155,7 +155,7 @@ public class TC2922_Pruefen_von_globalen_Elemente extends GenericTest_New {
                     break;
 
                 case 10:
-                    if (!checkTageAnsichtElement()) {
+                    if (!checkTageAnsichtElement(i,"","")) {
                         check = false;
                         this.logFailureCheckpoint(Integer.toString(i), "Element not Found", "Element not Found");
                     }
@@ -163,7 +163,7 @@ public class TC2922_Pruefen_von_globalen_Elemente extends GenericTest_New {
                     break;
 
                 case 11:
-                    if (!checkTageAnsichtElement()) {
+                    if (!checkTageAnsichtElement(i,"","")) {
                         check = false;
                         this.logFailureCheckpoint(Integer.toString(i), "Element not Found", "Element not Found");
                     }
@@ -176,189 +176,18 @@ public class TC2922_Pruefen_von_globalen_Elemente extends GenericTest_New {
         return check;
     }
 
-    private boolean checkTageAnsichtElement() {
+    private boolean checkTageAnsichtElement(Integer i, String xPath, String elementName) {
         boolean check = true;
 
         //Element 1
-        if (getWebElement(globalVar._BOX_WETTER__LOGO).isEnabled()) {
+        if (getWebElement(xPath).isEnabled()) {
             check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__LOGO, getWebElement(globalVar._BOX_WETTER__LOGO).getTagName(), "Element not Found");
-        }
-
-        //Element 2
-        if (getWebElement(globalVar._BOX_WETTER__LOGO_POWERED_BY).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__LOGO_POWERED_BY, getWebElement(globalVar._BOX_WETTER__LOGO_POWERED_BY).getTagName(), "Element not Found");
-        }
-
-        //Element 3
-        if (getWebElement(globalVar._BOX_WETTER__MENÜLEISTE).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__MENÜLEISTE, getWebElement(globalVar._BOX_WETTER__MENÜLEISTE).getTagName(), "Element not Found");
-        }
-
-        //Element 4
-        if (getWebElement(globalVar._BOX_WETTER__THERE_BIG).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__THERE_BIG, getWebElement(globalVar._BOX_WETTER__THERE_BIG).getTagName(), "Element not Found");
-        }
-
-        //Element 5
-        if (getWebElement(globalVar._BOX_WETTER__EINSTELLUNG_BUTTON).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__EINSTELLUNG_BUTTON, getWebElement(globalVar._BOX_WETTER__EINSTELLUNG_BUTTON).getTagName(), "Element not Found");
-        }
-
-        //Element 6
-        if (getWebElement(globalVar._BOX_WETTER__BREADCRUMB).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__BREADCRUMB, getWebElement(globalVar._BOX_WETTER__BREADCRUMB).getTagName(), "Element not Found");
-        }
-
-        //Element 7
-        if (getWebElement(globalVar._BOX_WETTER__BREADCRUMB_aLink).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__BREADCRUMB_aLink, getWebElement(globalVar._BOX_WETTER__BREADCRUMB_aLink).getTagName(), "Element not Found");
-        }
-
-        //Element 8
-        if (getWebElement(globalVar._BOX_WETTER_h2).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER_h2, getWebElement(globalVar._BOX_WETTER_h2).getTagName(), "Element not Found");
-        }
-
-        //Element 9
-        if (getWebElement(globalVar._BOX_WETTER_h3).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER_h3, getWebElement(globalVar._BOX_WETTER_h3).getTagName(), "Element not Found");
-        }
-
-        //Element 10
-        if (getWebElement(globalVar._BOX_WETTER__LOGO).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__LOGO, getWebElement(globalVar._BOX_WETTER__LOGO).getTagName(), "Element not Found");
-        }
-
-        //Element 11
-        if (getWebElement(globalVar._BOX_WETTER__LOGO).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__LOGO, getWebElement(globalVar._BOX_WETTER__LOGO).getTagName(), "Element not Found");
-        }
-
-        //Element 12
-        if (getWebElement(globalVar._BOX_WETTER__LOGO).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__LOGO, getWebElement(globalVar._BOX_WETTER__LOGO).getTagName(), "Element not Found");
-        }
-
-        //Element 13
-        if (getWebElement(globalVar._BOX_WETTER__LOGO).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__LOGO, getWebElement(globalVar._BOX_WETTER__LOGO).getTagName(), "Element not Found");
-        }
-
-        //Element 14
-        if (getWebElement(globalVar._BOX_WETTER__LOGO).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__LOGO, getWebElement(globalVar._BOX_WETTER__LOGO).getTagName(), "Element not Found");
-        }
-
-        //Element 15
-        if (getWebElement(globalVar._BOX_WETTER__LOGO).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__LOGO, getWebElement(globalVar._BOX_WETTER__LOGO).getTagName(), "Element not Found");
-        }
-
-        //Element 16
-        if (getWebElement(globalVar._BOX_WETTER__LOGO).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__LOGO, getWebElement(globalVar._BOX_WETTER__LOGO).getTagName(), "Element not Found");
-        }
-
-        //Element 17
-        if (getWebElement(globalVar._BOX_WETTER__LOGO).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__LOGO, getWebElement(globalVar._BOX_WETTER__LOGO).getTagName(), "Element not Found");
-        }
-
-        //Element 18
-        if (getWebElement(globalVar._BOX_WETTER__LOGO).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__LOGO, getWebElement(globalVar._BOX_WETTER__LOGO).getTagName(), "Element not Found");
-        }
-
-        //Element 19
-        if (getWebElement(globalVar._BOX_WETTER__LOGO).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__LOGO, getWebElement(globalVar._BOX_WETTER__LOGO).getTagName(), "Element not Found");
-        }
-
-        //Element 20
-        if (getWebElement(globalVar._BOX_WETTER__LOGO).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__LOGO, getWebElement(globalVar._BOX_WETTER__LOGO).getTagName(), "Element not Found");
-        }
-
-        //Element 21
-        if (getWebElement(globalVar._BOX_WETTER__LOGO).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__LOGO, getWebElement(globalVar._BOX_WETTER__LOGO).getTagName(), "Element not Found");
-        }
-
-        //Element 22
-        if (getWebElement(globalVar._BOX_WETTER__LOGO).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__LOGO, getWebElement(globalVar._BOX_WETTER__LOGO).getTagName(), "Element not Found");
-        }
-
-        //Element 23
-        if (getWebElement(globalVar._BOX_WETTER__LOGO).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__LOGO, getWebElement(globalVar._BOX_WETTER__LOGO).getTagName(), "Element not Found");
-        }
-
-        //Element 24
-        if (getWebElement(globalVar._BOX_WETTER__LOGO).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__LOGO, getWebElement(globalVar._BOX_WETTER__LOGO).getTagName(), "Element not Found");
-        }
-
-        //Element 25
-        if (getWebElement(globalVar._BOX_WETTER__LOGO).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__LOGO, getWebElement(globalVar._BOX_WETTER__LOGO).getTagName(), "Element not Found");
-        }
-
-        //Element 26
-        if (getWebElement(globalVar._BOX_WETTER__LOGO).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__LOGO, getWebElement(globalVar._BOX_WETTER__LOGO).getTagName(), "Element not Found");
-        }
-
-        //Element 27
-        if (getWebElement(globalVar._BOX_WETTER__LOGO).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__LOGO, getWebElement(globalVar._BOX_WETTER__LOGO).getTagName(), "Element not Found");
-        }
-
-        //Element 28
-        if (getWebElement(globalVar._BOX_WETTER__LOGO).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__LOGO, getWebElement(globalVar._BOX_WETTER__LOGO).getTagName(), "Element not Found");
-        }
-
-        //Element 29
-        if (getWebElement(globalVar._BOX_WETTER__LOGO).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__LOGO, getWebElement(globalVar._BOX_WETTER__LOGO).getTagName(), "Element not Found");
-        }
-
-        //Element 30
-        if (getWebElement(globalVar._BOX_WETTER__LOGO).isEnabled()) {
-            check = false;
-            this.logFailureCheckpoint("xPath: " + globalVar._BOX_WETTER__LOGO, getWebElement(globalVar._BOX_WETTER__LOGO).getTagName(), "Element not Found");
+            this.logFailureCheckpoint(
+                    i.toString(),
+                    "xPath: " + globalVar._BOX_WETTER__LOGO + elementName,
+                    getWebElement(globalVar._BOX_WETTER__LOGO).getTagName() + " Element not found"
+            );
         }
         return check;
     }
-
 }

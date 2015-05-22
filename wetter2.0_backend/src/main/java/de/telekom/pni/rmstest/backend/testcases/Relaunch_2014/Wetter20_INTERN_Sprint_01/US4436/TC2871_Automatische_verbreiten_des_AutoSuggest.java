@@ -49,7 +49,6 @@ public class TC2871_Automatische_verbreiten_des_AutoSuggest extends GenericTest_
             if (widgth2 >= widgth1) {
 
                 this.logSuccessCheckpoint("Breite AutoSuggest:", "AutoSuggest-Breite ist größer als " + widgth2 + " Breiter.");
-                //this.logSuccessCheckpoint(checkPointName, expected);
             } else {
                 this.logFailureCheckpoint("Breite AutoSuggest:", "AutoSuggest-Breite ist > " + widgth2, "Aktuell " + widgth1);
             }
