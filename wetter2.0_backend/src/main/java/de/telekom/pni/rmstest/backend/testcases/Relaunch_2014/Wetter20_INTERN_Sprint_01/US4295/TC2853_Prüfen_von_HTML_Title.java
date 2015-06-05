@@ -65,7 +65,7 @@ public class TC2853_Prüfen_von_HTML_Title extends GenericTest_New {
         resultString2.add("wetter-zwingenberg-bergstraße");
         resultString2.add("wetter-zwingenberg-bergstraße");
 
-        setRunningConfiguration(new RunningConfiguration_New("CH",globalVar.__StartSeiteFavoriten__));
+      //  setRunningConfiguration(new RunningConfiguration_New("CH",globalVar.__StartSeiteFavoriten__));
         //Step 1
         getBrowser();
 

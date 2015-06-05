@@ -34,7 +34,7 @@ public class TC3016_Direkte_Verlinkung_Wetterdetailsseite extends GenericTest_Ne
         globalVar.resultStringList.add("wetter-vereinigtes-koenigreich/nordirland/wetter-belfast/N-3562978");
         globalVar.resultStringList.add("wetter-vereinigte-staaten/new-york/wetter-new-york-city/U03690c3c");
 
-        setRunningConfiguration(new RunningConfiguration_New("CH", globalVar.__StartSeiteFavoriten__));
+        //setRunningConfiguration(new RunningConfiguration_New("CH", globalVar.__StartSeiteFavoriten__));
         //Step 1
         this.getBrowser();
 

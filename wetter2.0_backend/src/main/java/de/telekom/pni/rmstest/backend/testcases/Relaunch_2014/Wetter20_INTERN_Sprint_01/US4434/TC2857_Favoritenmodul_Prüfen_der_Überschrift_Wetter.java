@@ -54,7 +54,7 @@ public class TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter extends Gener
         globalVar.resultStringList.add("Wetter Tokyo Narita/New Intl");
         globalVar.resultStringList.add("Wetter Peking");
 
-        setRunningConfiguration(new RunningConfiguration_New("CH", globalVar.__StartSeiteFavoriten__));
+      //  setRunningConfiguration(new RunningConfiguration_New("CH", globalVar.__StartSeiteFavoriten__));
         //Step1
         getBrowser();
         //Step2

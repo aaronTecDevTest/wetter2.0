@@ -54,7 +54,7 @@ public class TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten extends GenericTes
         globalVar.resultStringList.add("Wetter Tokyo Narita/New Intl");
         globalVar.resultStringList.add("Wetter Peking");
 
-        setRunningConfiguration(new RunningConfiguration_New("CH", globalVar.__StartSeiteFavoriten__));
+    //    setRunningConfiguration(new RunningConfiguration_New("CH", globalVar.__StartSeiteFavoriten__));
         //Step1
         getBrowser();
         //Step2

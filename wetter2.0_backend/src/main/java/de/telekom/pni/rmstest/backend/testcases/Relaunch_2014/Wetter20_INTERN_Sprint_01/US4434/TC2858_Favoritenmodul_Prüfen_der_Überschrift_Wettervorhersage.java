@@ -55,7 +55,7 @@ public class TC2858_Favoritenmodul_Prüfen_der_Überschrift_Wettervorhersage ext
       //  globalVar.resultStringList.add("Tokyo Narita");
         globalVar.resultStringList.add("Peking");
 
-        setRunningConfiguration(new RunningConfiguration_New("CH", globalVar.__StartSeiteFavoriten__));
+       // setRunningConfiguration(new RunningConfiguration_New("CH", globalVar.__StartSeiteFavoriten__));
         //Step1
         getBrowser();
         //Step2

@@ -63,7 +63,7 @@ public class TC2909_Top_Treffer_in_Suchergebnisseite extends GenericTest_New {
         picture.add(paris);
         picture.add(barcelona);
 
-        setRunningConfiguration(new RunningConfiguration_New("CH", globalVar.__StartSeiteFavoriten__));
+       // setRunningConfiguration(new RunningConfiguration_New("CH", globalVar.__StartSeiteFavoriten__));
         //Step 1
         this.getBrowser();
 
