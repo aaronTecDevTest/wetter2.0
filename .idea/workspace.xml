@@ -2,57 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e2f1897-6aff-4116-8c10-7ff77ca32190" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\a.kutekidila\Dev\GitHub\wetter2.0\.idea\libraries\Maven__net_java_dev_jna_jna_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\a.kutekidila\Dev\GitHub\wetter2.0\.idea\libraries\Maven__net_java_dev_jna_platform_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\a.kutekidila\Dev\GitHub\wetter2.0\.idea\libraries\Maven__net_sourceforge_cssparser_cssparser_0_9_14.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\a.kutekidila\Dev\GitHub\wetter2.0\.idea\libraries\Maven__net_sourceforge_htmlunit_htmlunit_2_15.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\a.kutekidila\Dev\GitHub\wetter2.0\.idea\libraries\Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_15.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\a.kutekidila\Dev\GitHub\wetter2.0\.idea\libraries\Maven__net_sourceforge_nekohtml_nekohtml_1_9_21.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\a.kutekidila\Dev\GitHub\wetter2.0\.idea\libraries\Maven__org_apache_httpcomponents_httpmime_4_3_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\a.kutekidila\Dev\GitHub\wetter2.0\.idea\libraries\Maven__org_eclipse_jetty_jetty_http_8_1_15_v20140411.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\a.kutekidila\Dev\GitHub\wetter2.0\.idea\libraries\Maven__org_eclipse_jetty_jetty_io_8_1_15_v20140411.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\a.kutekidila\Dev\GitHub\wetter2.0\.idea\libraries\Maven__org_eclipse_jetty_jetty_util_8_1_15_v20140411.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\a.kutekidila\Dev\GitHub\wetter2.0\.idea\libraries\Maven__org_eclipse_jetty_jetty_websocket_8_1_15_v20140411.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\a.kutekidila\Dev\GitHub\wetter2.0\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_api_2_45_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\a.kutekidila\Dev\GitHub\wetter2.0\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_45_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\a.kutekidila\Dev\GitHub\wetter2.0\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_45_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\a.kutekidila\Dev\GitHub\wetter2.0\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_htmlunit_driver_2_45_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\a.kutekidila\Dev\GitHub\wetter2.0\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_ie_driver_2_45_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\a.kutekidila\Dev\GitHub\wetter2.0\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_java_2_45_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\a.kutekidila\Dev\GitHub\wetter2.0\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_leg_rc_2_45_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\a.kutekidila\Dev\GitHub\wetter2.0\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_remote_driver_2_45_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\a.kutekidila\Dev\GitHub\wetter2.0\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_safari_driver_2_45_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\a.kutekidila\Dev\GitHub\wetter2.0\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_support_2_45_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\a.kutekidila\Dev\GitHub\wetter2.0\.idea\libraries\Maven__xalan_serializer_2_7_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\a.kutekidila\Dev\GitHub\wetter2.0\.idea\libraries\Maven__xalan_xalan_2_7_1.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/global/GlobalVarWetterInfo_Preview.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/global/GlobalVarWetterInfo_Preview.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US5480/TC2699_Suche_mit_Sonderzeichen.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US5480/TC2699_Suche_mit_Sonderzeichen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US5426/TC2708_AutoSuggest_Auslandorte_mit_Klicken.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US5426/TC2708_AutoSuggest_Auslandorte_mit_Klicken.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US5431/TC2774_Ausländische_Orte.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US5431/TC2774_Ausländische_Orte.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4295/TC2853_Prüfen_von_HTML_Title.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4295/TC2853_Prüfen_von_HTML_Title.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4298/TC2854_Prüfen_H1_Tag.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4298/TC2854_Prüfen_H1_Tag.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4314/TC2867_Weiterleitung_der_alte_URL.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4314/TC2867_Weiterleitung_der_alte_URL.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4303/TC2906_Prüfen_von_Canonical_Tag.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4303/TC2906_Prüfen_von_Canonical_Tag.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4329/TC2909_Top_Treffer_in_Suchergebnisseite.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4329/TC2909_Top_Treffer_in_Suchergebnisseite.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US5430/TC3016_Direkte_Verlinkung_Wetterdetailsseite.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US5430/TC3016_Direkte_Verlinkung_Wetterdetailsseite.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US9998/TC9998_Manuell_Testing.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US9998/TC9998_Manuell_Testing.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/manager/WebDriverManager_New.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/manager/WebDriverManager_New.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/global/GlobalVarWetterInfo_Preview.java" afterPath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/global/GlobalVarWetterInfo_Preview.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US5480/TC2699_Suche_mit_Sonderzeichen.java" afterPath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US5480/TC2699_Suche_mit_Sonderzeichen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US5426/TC2708_AutoSuggest_Auslandorte_mit_Klicken.java" afterPath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US5426/TC2708_AutoSuggest_Auslandorte_mit_Klicken.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US5431/TC2774_Ausländische_Orte.java" afterPath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US5431/TC2774_Ausländische_Orte.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4295/TC2853_Prüfen_von_HTML_Title.java" afterPath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4295/TC2853_Prüfen_von_HTML_Title.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4298/TC2854_Prüfen_H1_Tag.java" afterPath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4298/TC2854_Prüfen_H1_Tag.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4314/TC2867_Weiterleitung_der_alte_URL.java" afterPath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4314/TC2867_Weiterleitung_der_alte_URL.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4303/TC2906_Prüfen_von_Canonical_Tag.java" afterPath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4303/TC2906_Prüfen_von_Canonical_Tag.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4297/TC2928_Breadcrumb_für_Orte_im_Ausland.java" afterPath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4297/TC2928_Breadcrumb_für_Orte_im_Ausland.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4295/TC3105_Prüfen_von_HTML_Title_St_Pauli.java" afterPath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4295/TC3105_Prüfen_von_HTML_Title_St_Pauli.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten.java" afterPath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US9998/TC9998_Manuell_Testing.java" afterPath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US9998/TC9998_Manuell_Testing.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/manager/WebDriverManager_New.java" afterPath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/manager/WebDriverManager_New.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0.iml" afterPath="$PROJECT_DIR$/wetter2.0.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4297/TC2928_Breadcrumb_für_Orte_im_Ausland.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4297/TC2928_Breadcrumb_für_Orte_im_Ausland.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4295/TC3105_Prüfen_von_HTML_Title_St_Pauli.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4295/TC3105_Prüfen_von_HTML_Title_St_Pauli.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wetter2.0.iws" />
@@ -101,9 +52,10 @@
       <file leaf-file-name="TC3105_Prüfen_von_HTML_Title_St_Pauli.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4295/TC3105_Prüfen_von_HTML_Title_St_Pauli.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46287128">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.18234323">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding>
+                <element signature="method#runTest#0;class#TC3105_Prüfen_von_HTML_Title_St_Pauli#0" expanded="true" />
                 <element signature="method#main#0;class#TC3105_Prüfen_von_HTML_Title_St_Pauli#0" expanded="true" />
                 <element signature="method#setRunningConfiguration#0;class#TC3105_Prüfen_von_HTML_Title_St_Pauli#0" expanded="true" />
                 <element signature="method#checkTitle#0;class#TC3105_Prüfen_von_HTML_Title_St_Pauli#0" expanded="true" />
@@ -122,7 +74,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -425,6 +381,8 @@
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="LayoutCode.rearrangeEntriesXML" value="false" />
     <property name="LayoutCode.rearrangeEntries" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -990,7 +948,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433487588191</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="In Progress">
+      <created>1433841550847</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1433841550847</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1583,9 +1547,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4295/TC3105_Prüfen_von_HTML_Title_St_Pauli.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46287128">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.18234323">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding>
+            <element signature="method#runTest#0;class#TC3105_Prüfen_von_HTML_Title_St_Pauli#0" expanded="true" />
             <element signature="method#main#0;class#TC3105_Prüfen_von_HTML_Title_St_Pauli#0" expanded="true" />
             <element signature="method#setRunningConfiguration#0;class#TC3105_Prüfen_von_HTML_Title_St_Pauli#0" expanded="true" />
             <element signature="method#checkTitle#0;class#TC3105_Prüfen_von_HTML_Title_St_Pauli#0" expanded="true" />
