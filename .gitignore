@@ -3,3 +3,6 @@ Dev
 result
 *.iml
 *.idea
+.settings
+.classpath
+.project
