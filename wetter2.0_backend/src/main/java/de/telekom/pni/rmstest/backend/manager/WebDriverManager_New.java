@@ -146,6 +146,7 @@ public class WebDriverManager_New {
         profile.setPreference("general.description.override", "");
         profile.setPreference("general.platform.override", "");
         //Pop Up
+        profile.setPreference("plugin.state.flash", 0);
         profile.setPreference("print.always_print_silent", true);
         profile.setPreference("print.show_print_progress", false);
         log.debug("FirefoxDriver configured successfully");

@@ -31,6 +31,7 @@ public class TC2906_Prüfen_von_Canonical_Tag extends GenericTest_New {
         globalVar.resultStringList.add("www.wetter.info/wetter-deutschland/hessen/kreis-gross-gerau/wetter-gross-gerau/K06433006");
         globalVar.resultStringList.add("www.wetter.info/ausland/wetter-frankreich/ile-de-france/wetter-paris/N-2085971");
 
+
         try {
             //Spet 1
             getBrowser();
@@ -45,11 +46,11 @@ public class TC2906_Prüfen_von_Canonical_Tag extends GenericTest_New {
                 globalVar.stringResult = globalVar.resultStringList.get(i);
 
                 setInputFeldValue(globalVar._INPUT_BOX, globalVar.stringSearch);
-                pauseTest(500);
+                pauseTest(1500);
                 getWebElement(globalVar._INPUT_BOX).sendKeys(Keys.ARROW_DOWN);
 
                 getWebElement(globalVar._INPUT_BOX).sendKeys("\n");
-                pauseTest(500);
+                pauseTest(1500);
 
 
                 if (checkCononicalTag(i)) {

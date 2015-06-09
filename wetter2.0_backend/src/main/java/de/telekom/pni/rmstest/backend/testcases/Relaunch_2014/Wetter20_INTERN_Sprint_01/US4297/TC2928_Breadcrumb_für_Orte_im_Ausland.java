@@ -81,6 +81,7 @@ public class TC2928_Breadcrumb_für_Orte_im_Ausland extends GenericTest_New {
         WebElement breadcrumb;
 
         for (int i = 0; i < 12; i++) {
+            pauseTest(1000);
             breadcrumb = getWebElement(globalVar.__BREADCRUMB_ALL__);
 
             switch (i) {
@@ -230,7 +231,6 @@ public class TC2928_Breadcrumb_für_Orte_im_Ausland extends GenericTest_New {
                 default:
                     break;
             }
-            pauseTest(500);
         }
         return check;
     }
@@ -239,6 +239,7 @@ public class TC2928_Breadcrumb_für_Orte_im_Ausland extends GenericTest_New {
     public void checkBreadcrumbLink(String mainTitel, int i) {
 
         String titel;
+        pauseTest(500);
         getWebElement(globalVar.__BREADCRUMB_LINK1__).click();
         pauseTest(500);
         titel = getBrowser().getTitle();
@@ -247,6 +248,8 @@ public class TC2928_Breadcrumb_für_Orte_im_Ausland extends GenericTest_New {
         }
         getBrowser().navigate().back();
 
+
+        pauseTest(500);
         getWebElement(globalVar.__BREADCRUMB_LINK2__).click();
         pauseTest(500);
         titel = getBrowser().getTitle();

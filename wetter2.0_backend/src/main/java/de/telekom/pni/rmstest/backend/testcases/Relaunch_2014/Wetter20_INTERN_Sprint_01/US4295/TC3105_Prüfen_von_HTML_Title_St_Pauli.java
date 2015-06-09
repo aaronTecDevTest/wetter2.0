@@ -25,7 +25,9 @@ public class TC3105_Prüfen_von_HTML_Title_St_Pauli extends GenericTest_New {
     @Override
     public void runTest() {
         globalVar = getGlobalVar();
-        resultString2 = new ArrayList<String>();
+        resultString2 = new ArrayList<>();
+
+     //   setRunningConfiguration(new RunningConfiguration_New("CH",""));
 
         globalVar.searchStringList.add("Hamburg Pauli");
 
@@ -53,7 +55,7 @@ public class TC3105_Prüfen_von_HTML_Title_St_Pauli extends GenericTest_New {
                 /**
                  * Result
                  */
-
+                pauseTest(1000);
                 if (checkTitle()) {
                     globalVar.stringSearch = "String" + globalVar.stringResult + " was found in Web";
                     //this.logSuccessCheckpoint(globalVar.stringResult, listOfAutoSuggest.get(j).getText());
@@ -92,6 +94,7 @@ public class TC3105_Prüfen_von_HTML_Title_St_Pauli extends GenericTest_New {
         String search = null;
 
         for (int i = 0; i < 11; i++) {
+            pauseTest(1000);
             switch (i) {
                 case 0:
                     result = "Wetter Hamburg St. Pauli – Wettervorhersage für Hamburg St. Pauli bei wetter.info";

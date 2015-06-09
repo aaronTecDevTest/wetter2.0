@@ -33,7 +33,7 @@ public class TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten extends GenericTes
         globalVar.searchStringList.add("Burow");
         globalVar.searchStringList.add("Stuttgart Bad Cannstatt");
         globalVar.searchStringList.add("Berlin Mitte");
-        globalVar.searchStringList.add("Frankfurt am Main");
+       // globalVar.searchStringList.add("Frankfurt am Main");
         globalVar.searchStringList.add("Paris");
         globalVar.searchStringList.add("New York");
         globalVar.searchStringList.add("London");
@@ -47,14 +47,14 @@ public class TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten extends GenericTes
         globalVar.resultStringList.add("Wetter Burow");
         globalVar.resultStringList.add("Wetter Stuttgart");
         globalVar.resultStringList.add("Wetter Berlin");
-        globalVar.resultStringList.add("Wetter Frankfurt am Main");
+      //  globalVar.resultStringList.add("Wetter Frankfurt am Main");
         globalVar.resultStringList.add("Wetter Paris");
         globalVar.resultStringList.add("Wetter New York (NY)");
         globalVar.resultStringList.add("Wetter London");
         globalVar.resultStringList.add("Wetter Tokyo Narita/New Intl");
         globalVar.resultStringList.add("Wetter Peking");
 
-    //    setRunningConfiguration(new RunningConfiguration_New("CH", globalVar.__StartSeiteFavoriten__));
+        setRunningConfiguration(new RunningConfiguration_New("CH", globalVar.__StartSeiteFavoriten__));
         //Step1
         getBrowser();
         //Step2
@@ -86,17 +86,18 @@ public class TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten extends GenericTes
             globalVar.stringSearch = globalVar.searchStringList.get(i);
 
             getWebElement(globalVar.__FAVORETEN_MODUL__Zahnrad__).click();
-            pauseTest(500);
+            pauseTest(2000);
             getWebElement(globalVar.__FAVORETEN_MODUL_MeinStadt__).click();
 
             setInputFeldValue(globalVar.__FAVORETEN_MODUL_MeinStadt_Suchfeld___, globalVar.stringSearch);
-            pauseTest(500);
+            pauseTest(2000);
 
-            element = getWebElement(".//*[@id='Tsetfav1_ac']/ul/li[2]/a/span[1]");
+            element = getWebElement(".//*[@id='Tsetfav1_ac']/ul/li[2]/a");
             element.click();
             pauseTest(2000);
 
-            city = getWebElement(globalVar._WETTER_ORT_H1).getText();
+           //city = getWebElement(globalVar._WETTER_ORT_H1).getText();
+           city = getWebElement(".//*[@id='Tcontbox']/div[2]/div[3]/div[2]/div[1]/div/a").getText();
 
             if(!city.contains(globalVar.resultStringList.get(i))) {
                 logFailureCheckpoint(Integer.toString(i)+" Click on AutoSuggest",globalVar.resultStringList.get(i), city);
@@ -111,17 +112,17 @@ public class TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten extends GenericTes
             globalVar.stringSearch = globalVar.searchStringList.get(i);
 
             getWebElement(globalVar.__FAVORETEN_MODUL__Zahnrad__).click();
-            pauseTest(500);
+            pauseTest(100);
             getWebElement(globalVar.__FAVORETEN_MODUL_MeinStadt__).click();
 
             setInputFeldValue(globalVar.__FAVORETEN_MODUL_MeinStadt_Suchfeld___, globalVar.stringSearch);
-            pauseTest(500);
+            pauseTest(100);
 
             getWebElement(globalVar.__FAVORETEN_MODUL_MeinStadt_Suchfeld___).sendKeys(Keys.ARROW_DOWN);
-            pauseTest(500);
+            pauseTest(100);
 
             getWebElement(globalVar.__FAVORETEN_MODUL_MeinStadt_Speichern___).click();
-            pauseTest(2000);
+            pauseTest(1000);
 
             city = getWebElement(globalVar._WETTER_ORT_H1).getText();
 

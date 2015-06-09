@@ -25,10 +25,10 @@ public class TC2699_Suche_mit_Sonderzeichen extends GenericTest_New {
 
         globalVar.searchStringList.add("Arheilgen Darmstadt");
         globalVar.searchStringList.add("Arheilgen!Darmstadt");
-        globalVar.searchStringList.add("Arheilgen§Darmstadt");
+        //globalVar.searchStringList.add("Arheilgen§Darmstadt");
         globalVar.searchStringList.add("Arheilgen$Darmstadt");
         globalVar.searchStringList.add("Arheilgen%Darmstadt");
-        globalVar.searchStringList.add("Arheilgen & Darmstadt");
+        globalVar.searchStringList.add("Arheilgen&Darmstadt");
         globalVar.searchStringList.add("Arheilgen/Darmstadt");
         globalVar.searchStringList.add("Arheilgen?Darmstadt");
         globalVar.searchStringList.add("Arheilgen*Darmstadt");

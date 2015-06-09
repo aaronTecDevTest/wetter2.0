@@ -29,13 +29,14 @@ public class TC2854_Prüfen_H1_Tag extends GenericTest_New {
         globalVar.searchStringList.add("New York");
 
         globalVar.resultStringList.add("Wetter Darmstadt");
-        globalVar.resultStringList.add("Zwingenberg (Bergstraße)");
-        globalVar.resultStringList.add("Kleinenborstel (Martfeld)");
-        globalVar.resultStringList.add("Berlin");
-        globalVar.resultStringList.add("Paris");
-        globalVar.resultStringList.add("Postkamp (Altenholz)");
-        globalVar.resultStringList.add("New York");
+        globalVar.resultStringList.add("Wetter Zwingenberg (Bergstraße)");
+        globalVar.resultStringList.add("Wetter Kleinenborstel (Martfeld)");
+        globalVar.resultStringList.add("Wetter Berlin");
+        globalVar.resultStringList.add("Wetter Paris");
+        globalVar.resultStringList.add("Wetter Postkamp (Altenholz)");
+        globalVar.resultStringList.add("Wetter New York");
 
+       // setRunningConfiguration(new RunningConfiguration_New("CH", ""));
         //Step 1
         getBrowser();
 
@@ -51,7 +52,7 @@ public class TC2854_Prüfen_H1_Tag extends GenericTest_New {
                 globalVar.stringResult = globalVar.resultStringList.get(i);
 
                 setInputFeldValue(globalVar._INPUT_BOX, globalVar.stringSearch);
-                pauseTest(500);
+                pauseTest(1000);
                 getWebElement(globalVar._INPUT_BOX).sendKeys(Keys.ARROW_DOWN);
                 setInputFeldValue(globalVar._INPUT_BOX, "\n");
 
@@ -62,7 +63,9 @@ public class TC2854_Prüfen_H1_Tag extends GenericTest_New {
                     globalVar.stringSearch = " " + globalVar.stringResult + " was not found in Web";
                     this.logFailureCheckpoint(globalVar.stringSearch, globalVar.stringResult, "No String match!");
                 }
+                pauseTest(1000);
                 navigate(globalVar.__StartSeiteFavoriten__);
+                pauseTest(1000);
             }
         } catch (Exception e) {
             globalVar.stringSearch = globalVar.stringSearch + " empty list!! " + globalVar.stringResult + " AD-Elements could be not found in Web";
@@ -94,6 +97,7 @@ public class TC2854_Prüfen_H1_Tag extends GenericTest_New {
         WebElement h1_Tag;
 
         for (int i = 0; i < 12; i++) {
+            pauseTest(1000);
             h1_Tag = getWebElement(globalVar._BOX_WETTER_h1);
 
             switch (i) {

@@ -42,9 +42,10 @@ public class GlobalVarWetterInfo_Preview extends GlobalVar {
         super._BOX_WETTER__EINSTELLUNG_BUTTON = ".//*[@id='Tcontbox']/div[2]/div[3]/div[2]/div[1]/p";
         super._BOX_WETTER__BREADCRUMB = ".//*[@id='Tbcrumbinner']/div";
         super._BOX_WETTER__BREADCRUMB_aLink = ".//*[@id='Tbcrumbinner']/div/a[*]";
-        super._BOX_WETTER_h1 = "//*[@id=\"Tbcrumbinner\"]/div/h1[*]/b";
+        super._BOX_WETTER_h1 = "//*[@id=\"Tbcrumbinner\"]"; ////
         super._BOX_WETTER_h2 = ".//*[@id='Tcontbox']/div[2]/div[3]/div[2]/div[1]/h2";
-        super._BOX_WETTER_h3 = ".//*[@id='Tcontboxi']/div/div[12]";
+        super._BOX_WETTER_h3 = ".//*[@id='T-72211374']/div[2]/div/h3/span";
+        ////*[@id="T-64077184"]/div[2]/div/h6/span
 
         super._BOX_WETTER__3TAGE_ANSICHT = null;
         super._BOX_WETTER__WETER_KARTE = ".//*[@id='pwic_card']/div[20]/img";
@@ -130,18 +131,17 @@ public class GlobalVarWetterInfo_Preview extends GlobalVar {
         super.__FAVORETEN_MODUL_MeineFavoriten_AutoSuggest3__ = "//*[@id=\"Tsetfav4_ac\"]";
 
         //Meta Info
-        super.__META_CONONICAL_TAG__ = "/html/head/link[13]";
-        super.__META_URL_Tag__ = "/html/head/meta[7]";
+        super.__META_CONONICAL_TAG__ =  "/html/head/link[13]";
+        super.__META_URL_Tag__ =        "/html/head/meta[7]";
 
         //Breadcrumb
-        super.__BREADCRUMB_ALL__ = "//*[@id=\"Tbcrumbinner\"]/div";
-        super.__BREADCRUMB_LINK1__ = "//*[@id=\"Tbcrumbinner\"]/div/a[1]";
-        super.__BREADCRUMB_LINK2__ = "//*[@id=\"Tbcrumbinner\"]/div/a[2]";
-        super.__BREADCRUMB_LINK3__ = "//*[@id=\"Tbcrumbinner\"]/div/a[3]";
-        super.__BREADCRUMB_LINK4__ = "//*[@id=\"Tbcrumbinner\"]/div/a[4]";
-        super.__BREADCRUMB_LINK3_Temp__ = "//*[@id=\"Tbcrumbinner\"]/div/h1/a[1]";
-        super.__BREADCRUMB_LINK4_Temp__ = "//*[@id=\"Tbcrumbinner\"]/div/h1/a[2]";
-
+        super.__BREADCRUMB_ALL__ =                  "//*[@id=\"Tbcrumbinner\"]/div";
+        super.__BREADCRUMB_LINK1__ =                "//*[@id=\"Tbcrumbinner\"]/div/a[1]";
+        super.__BREADCRUMB_LINK2__ =                "//*[@id=\"Tbcrumbinner\"]/div/a[2]";
+        super.__BREADCRUMB_LINK3__ =                "//*[@id=\"Tbcrumbinner\"]/div/a[3]";
+        super.__BREADCRUMB_LINK4__ =                "//*[@id=\"Tbcrumbinner\"]/div/a[4]";
+        super.__BREADCRUMB_LINK3_Temp__ =           "//*[@id=\"Tbcrumbinner\"]/div/h1/a[1]";
+        super.__BREADCRUMB_LINK4_Temp__ =           "//*[@id=\"Tbcrumbinner\"]/div/h1/a[2]";
 
         //Schnittstelle Wirk
         super.__Schnittstelle_Wirk__ = "http://suche.wetter.info/ariadne/wsuggestion?location=new&limitNumber=10&limitCountries=??&countryPriority=?";
@@ -152,7 +152,8 @@ public class GlobalVarWetterInfo_Preview extends GlobalVar {
 
 
         //Breadcrumb  LinkT-Tab
-        linkTab.add(".//*[@id='T-self.parsedId-1']/div[2]/span[6]");                                    //3-Tage Wetterseite (Übersicht)
+      //  linkTab.add(".//*[@id='T-self.parsedId-1']/div[2]/span[6]");                                    //3-Tage Wetterseite (Übersicht)
+        linkTab.add(".//*[@id=\"T-17753306-1\"]/div[2]/span[6]/a");                                    //3-Tage Wetterseite (Übersicht)
         linkTab.add(".//*[@id='Treitsci']/ul/li[1]/a/");                                                //1.Tage Wetterseite
         linkTab.add(".//*[@id='Treitsci']/ul/li[2]/a/");                                                //2.Tage Wetterseite
         linkTab.add(".//*[@id='Treitsci']/ul/li[3]/a/");                                                //3.Tage Wetterseite
@@ -187,6 +188,7 @@ public class GlobalVarWetterInfo_Preview extends GlobalVar {
         redationsElement.put("wetterBox7/8"                 ,"//*[@id=\"Tcontboxi\"]/div/div[11]");
 
         redationsElement.put("SEO-Text"                     ,"//*[@id=\"Tcontboxi\"]/div/div[12]");
+
         redationsElement.put("WetterNachrichten"            ,"//*[@id=\"T-44091352\"]/div[1]");
 
         redationsElement.put("Footblock"                    ,"//*[@id=\"Tfootblock\"]");

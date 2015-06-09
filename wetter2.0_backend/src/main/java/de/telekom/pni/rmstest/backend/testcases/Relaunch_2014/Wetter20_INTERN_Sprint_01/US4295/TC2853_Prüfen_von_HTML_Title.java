@@ -65,7 +65,7 @@ public class TC2853_Prüfen_von_HTML_Title extends GenericTest_New {
         resultString2.add("wetter-zwingenberg-bergstraße");
         resultString2.add("wetter-zwingenberg-bergstraße");
 
-      //  setRunningConfiguration(new RunningConfiguration_New("CH",globalVar.__StartSeiteFavoriten__));
+        //setRunningConfiguration(new RunningConfiguration_New("CH",globalVar.__StartSeiteFavoriten__));
         //Step 1
         getBrowser();
 
@@ -78,10 +78,10 @@ public class TC2853_Prüfen_von_HTML_Title extends GenericTest_New {
                 globalVar.stringResult = globalVar.resultStringList.get(i);
 
                 setInputFeldValue(globalVar._INPUT_BOX, globalVar.stringSearch);
-                pauseTest(500);
+                pauseTest(1000);
                 getWebElement(globalVar._INPUT_BOX).sendKeys(Keys.ARROW_DOWN);
                 setInputFeldValue(globalVar._INPUT_BOX, "\n");
-
+                pauseTest(1000);
                 if (checkTitle()) {
                     globalVar.stringSearch = "String" + globalVar.stringResult + " was found in Web";
                 } else {
@@ -90,6 +90,7 @@ public class TC2853_Prüfen_von_HTML_Title extends GenericTest_New {
                 }
             }
             getBrowser().navigate().back();
+            pauseTest(1000);
         } catch (Exception e) {
             globalVar.stringSearch = globalVar.stringSearch + " empty list!! " + globalVar.stringResult + " AD-Elements could be not found in Web";
             this.logFailureCheckpoint(globalVar.stringSearch, globalVar.stringResult, "null");

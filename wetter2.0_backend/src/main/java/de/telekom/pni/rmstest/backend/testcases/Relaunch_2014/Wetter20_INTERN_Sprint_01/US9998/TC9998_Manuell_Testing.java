@@ -16,7 +16,7 @@ public class TC9998_Manuell_Testing extends GenericTest_New {
     @Override
     public void runTest() {
         String fehler = "Anforderung bitte manuell testen!";
-        this.logFailureCheckpoint(fehler, "", "");
+        this.logSuccessCheckpoint(fehler, "");
     }
 
     /**

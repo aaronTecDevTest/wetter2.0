@@ -31,7 +31,7 @@ public class TC2708_AutoSuggest_Auslandorte_mit_Klicken extends GenericTest_New 
         dreiTageWetterSeite.add("wetter-new-york-city/U03690c3c");
         dreiTageWetterSeite.add("wetter-kinshasa/N-2843631");
 
-
+       // setRunningConfiguration(new RunningConfiguration_New("CH", "Test"));
         //Step 1
         getBrowser();
         //Step 2
@@ -87,8 +87,9 @@ public class TC2708_AutoSuggest_Auslandorte_mit_Klicken extends GenericTest_New 
         if (check1 && check2) {
             check = true;
         }
-        pauseTest(2000);
+        pauseTest(1000);
         getBrowser().navigate().back();
+        pauseTest(1000);
         return check;
     }
 

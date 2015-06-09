@@ -98,7 +98,7 @@ public class TC2867_Weiterleitung_der_alte_URL extends GenericTest_New {
             for (int i = 0; i < globalVar.searchStringList.size(); i++) {
                 globalVar.stringSearch = globalVar.searchStringList.get(i);
                 navigate(globalVar.stringSearch);
-
+                pauseTest(500);
                 if (checkWeb()) {
                     globalVar.stringSearch = "String" + globalVar.stringResult + " was found in Web";
                     //this.logSuccessCheckpoint(globalVar.stringResult, listOfAutoSuggest.get(j).getText());
@@ -106,7 +106,8 @@ public class TC2867_Weiterleitung_der_alte_URL extends GenericTest_New {
                     globalVar.stringSearch = " " + globalVar.stringResult + " was not found in Web";
                     this.logFailureCheckpoint(globalVar.stringSearch, globalVar.stringResult, "No String match!");
                 }
-                getBrowser().navigate().back();
+                pauseTest(500);
+               // getBrowser().navigate().back();
             }
         } catch (Exception e) {
             globalVar.stringSearch = globalVar.stringSearch + " empty list!! " + globalVar.stringResult + " AD-Elements could be not found in Web";

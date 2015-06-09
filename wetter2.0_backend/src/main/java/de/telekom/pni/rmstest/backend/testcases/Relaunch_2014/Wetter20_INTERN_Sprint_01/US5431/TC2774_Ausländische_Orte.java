@@ -43,6 +43,7 @@ public class TC2774_Ausländische_Orte extends GenericTest_New {
                 + "Äquatorialguinea, Provinz Litoral"
                 + "");
 
+        //setRunningConfiguration(new RunningConfiguration_New("CH","Test"));
         //Step 1
         this.getBrowser();
 
@@ -59,7 +60,7 @@ public class TC2774_Ausländische_Orte extends GenericTest_New {
 
 
                 openSuchergebnisOrte(globalVar._SUCHERGEBNISSEITE_AUSKLAPP_BUTTONS);
-                pauseTest(2000);
+                pauseTest(1000);
                 listOfSuchergebnis = getListSuchergebnis(globalVar._SUCHERGEBNISSEITE_LIST_ORTE3);
 
                 if (checkTopTreffer(listOfSuchergebnis)) {
@@ -69,7 +70,9 @@ public class TC2774_Ausländische_Orte extends GenericTest_New {
 
                     this.logFailureCheckpoint(globalVar.stringSearch, globalVar.stringResult, listOfSuchergebnis.get(i).getText());
                 }
+                pauseTest(1000);
                 getWebElement(globalVar._INPUT_BOX).clear();
+                pauseTest(1000);
             } catch (Exception e) {
                 this.logFailureCheckpoint("Fehler:", "Suchergebnissen nicht gefunden bitte prüfen:" + globalVar.stringResult, e.getStackTrace().toString());
             }
