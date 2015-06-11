@@ -1,6 +1,7 @@
 package de.telekom.pni.rmstest.backend.global;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class GlobalVarWetterInfo extends GlobalVar {
 
@@ -42,7 +43,7 @@ public class GlobalVarWetterInfo extends GlobalVar {
         super._BOX_WETTER__BREADCRUMB_aLink = ".//*[@id='Tbcrumbinner']/div/a[*]";
         super._BOX_WETTER_h1 = ".//*[@id='Tbcrumbinner']/div/h1";
         super._BOX_WETTER_h2 = ".//*[@id='Tcontbox']/div[2]/div[3]/div[2]/div[1]/h2";
-        super._BOX_WETTER_h3 = ".//*[@id='Tcontboxi']/div/div[12]";
+        super._BOX_WETTER_h3 = ".//*[@id='T-72211374']/div[2]/div/h3/span";
 
         super._BOX_WETTER__3TAGE_ANSICHT = null;
         super._BOX_WETTER__WETER_KARTE = ".//*[@id='pwic_card']/div[20]/img";
@@ -95,19 +96,20 @@ public class GlobalVarWetterInfo extends GlobalVar {
         super.searchStringList = new ArrayList<>();
         super.resultStringList = new ArrayList<>();
         super.linkTab = new ArrayList<>();
+        super.redationsElement = new HashMap<>();
 
         //Testlink
-        super.__WEBSIDE__ = "www.wetter.info";
-        super.__AutoSuggest__ = "www.wetter.info";
-        super.__Suchergebnisseite = "www.wetter.info";
-        super.__StartSeiteFavoriten__ = "www.wetter.info";
-        super.__SUCHWEBSIDE_3TageAnsicht__ = "www.wetter.info";
-        super.__SUCHWEBSIDE_3TageAnsicht_Preview__ = "www.wetter.info";
-        super.__SUCHESTATION_ID__ = "www.wetter.info";
-        super.__SUCHWEBSIDE_3TageAnsicht_Preview__Ausland = "www.wetter.info";
+        super.__WEBSIDE__ = "http://www.wetter.info";
+        super.__AutoSuggest__ = "http://www.wetter.info";
+        super.__Suchergebnisseite = "http://www.wetter.info";
+        super.__StartSeiteFavoriten__ = "http://www.wetter.info";
+        super.__SUCHWEBSIDE_3TageAnsicht__ = "http://www.wetter.info";
+        super.__SUCHWEBSIDE_3TageAnsicht_Preview__ = "http://www.wetter.info";
+        super.__SUCHESTATION_ID__ = "http://www.wetter.info";
+        super.__SUCHWEBSIDE_3TageAnsicht_Preview__Ausland = "http://www.wetter.info";
 
         //Favoritenmodul
-        super.__FAVORITEN_MODUL__ = "www.wetter.info";
+        super.__FAVORITEN_MODUL__ = "http://www.wetter.info";
         super.__FAVORETEN_MODUL__Zahnrad__ = "//*[@id=\"Tcontbox\"]/div[2]/div[3]/div[2]/div[1]/p";
 
         super.__FAVORETEN_MODUL_MeinStadt__ = "//*[@id=\"Tcontbox\"]/div[2]/div[3]/div[2]/div[6]/div[2]/div/div/ul/li[1]/a";
@@ -147,8 +149,10 @@ public class GlobalVarWetterInfo extends GlobalVar {
 
         super.__All_Links__ = ".//a";
 
+        //Breadcrumb Link-Tab
+        //linkTab.add(".//*[@id='T-self.parsedId-1']/div[2]/span[6]");                                    //3-Tage Wetterseite (Übersicht)
 
-        linkTab.add(".//*[@id='T-self.parsedId-1']/div[2]/span[6]");                                    //3-Tage Wetterseite (Übersicht)
+        linkTab.add(".//*[@id=\"T-17753306-1\"]/div[2]/span[6]/a");                                    //3-Tage   Wetterseite (Übersicht)
         linkTab.add(".//*[@id='Treitsci']/ul/li[1]/a/");                                                //1.Tage Wetterseite
         linkTab.add(".//*[@id='Treitsci']/ul/li[2]/a/");                                                //2.Tage Wetterseite
         linkTab.add(".//*[@id='Treitsci']/ul/li[3]/a/");                                                //3.Tage Wetterseite
@@ -160,5 +164,33 @@ public class GlobalVarWetterInfo extends GlobalVar {
         linkTab.add(".//*[@id='Treitsci']/ul/li[9]/a/");                                                //9.Tage Wetterseite
         linkTab.add(".//*[@id='Treitsci']/ul/li[10]/a/");                                               //10.Tage Wetterseite
         linkTab.add(".//*[@id='Tcontbox']/div[2]/div[3]/div[2]/div[3]/div[2]/div[3]/div[1]/div/a[2]");  //Für 10-Tage Ansicht
+
+        //Redeaktionalle Elementen
+
+        redationsElement.put("Logo", "//*[@id=\"Tlogo2\"]/img");
+        redationsElement.put("Suchfeld", "//*[@id=\"searchPattern\"]");
+        redationsElement.put("PoweredBy (T.O)", "//*[@id=\"Twtosearch_pow\"]/a");
+        redationsElement.put("Navigationsleiste", "//*[@id=\"Twnav\"]");
+        redationsElement.put("Breadcrumb", "//*[@id=\"Tbcrumbinner\"]");
+        redationsElement.put("Favoritenmodul", "//*[@id=\"Tcontbox\"]/div[2]/div[3]/div[2]/div[1]");
+        redationsElement.put("WetterDatenBox", "//*[@id=\"Tcontbox\"]/div[2]/div[3]");
+        redationsElement.put("WetterKarten", "//*[@id=\"Tcontboxi\"]/div/div[3]/div/div");
+        redationsElement.put("Twinter (W.I)", "//*[@id=\"T-63329502\"]");
+        redationsElement.put("FacebookIcon (W.I)", "//*[@id=\"T-63329326\"]");
+
+        redationsElement.put("WetterBox1/2", "//*[@id=\"Tcontboxi\"]/div/div[7]");
+        redationsElement.put("wetterBox3/4", "//*[@id=\"Tcontboxi\"]/div/div[8]");
+
+        redationsElement.put("SEO-Link", "//*[@id=\"T-52310918\"]/div[2]/div");
+
+        redationsElement.put("wetterBox5/6", "//*[@id=\"Tcontboxi\"]/div/div[10]");
+        redationsElement.put("wetterBox7/8", "//*[@id=\"Tcontboxi\"]/div/div[11]");
+
+        redationsElement.put("SEO-Text", "//*[@id=\"Tcontboxi\"]/div/div[12]");
+
+        redationsElement.put("WetterNachrichten", "//*[@id=\"T-44091352\"]/div[1]");
+
+        redationsElement.put("Footblock", "//*[@id=\"Tfootblock\"]");
+        redationsElement.put("Copy Right", "//*[@id=\"Tcopyr\"]");
     }
 }

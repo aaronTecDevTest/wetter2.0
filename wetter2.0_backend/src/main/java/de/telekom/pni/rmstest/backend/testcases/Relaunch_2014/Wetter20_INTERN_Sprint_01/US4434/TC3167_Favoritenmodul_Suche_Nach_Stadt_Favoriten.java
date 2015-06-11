@@ -58,7 +58,8 @@ public class TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten extends GenericTes
         //Step1
         getBrowser();
         //Step2
-        navigate(globalVar.__StartSeiteFavoriten__);
+        //navigate(globalVar.__StartSeiteFavoriten__);
+        navigate("http://www.wetter.info");
         //Step3
         try {
             checkClickeElement();

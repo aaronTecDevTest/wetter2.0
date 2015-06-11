@@ -31,11 +31,12 @@ public class TC2708_AutoSuggest_Auslandorte_mit_Klicken extends GenericTest_New 
         dreiTageWetterSeite.add("wetter-new-york-city/U03690c3c");
         dreiTageWetterSeite.add("wetter-kinshasa/N-2843631");
 
-       // setRunningConfiguration(new RunningConfiguration_New("CH", "Test"));
+        //setRunningConfiguration(new RunningConfiguration_New("CH", "Test"));
         //Step 1
         getBrowser();
         //Step 2
         navigate(globalVar.__StartSeiteFavoriten__);
+       // navigate("http://www.wetter.info");
 
         try {
             for (int i = 0; i < globalVar.resultStringList.size(); i++) {

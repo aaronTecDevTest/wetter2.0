@@ -41,11 +41,14 @@ public class TC2712_Top_Treffer_Für_In_und_Ausland extends GenericTest_New {
         globalVar.resultStringList.add("Kopenhagen (Dänemark, Hovedstaden)");
         globalVar.resultStringList.add("Tokio (Japan, Tokio)");
 
+      // setRunningConfiguration(new RunningConfiguration_New("CH",""));
+
         //Step 1
-        this.getBrowser();
+        getBrowser();
 
         //Step 2
-        this.navigate(globalVar.__StartSeiteFavoriten__);
+        //navigate("http://www.wetter.info");
+        navigate(globalVar.__StartSeiteFavoriten__);
 
         //Step 3 to ??
         try {

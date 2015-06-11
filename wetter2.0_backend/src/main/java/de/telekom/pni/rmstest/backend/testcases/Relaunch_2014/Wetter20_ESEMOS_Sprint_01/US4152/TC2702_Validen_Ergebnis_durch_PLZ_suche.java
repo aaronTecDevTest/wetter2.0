@@ -38,7 +38,7 @@ public class TC2702_Validen_Ergebnis_durch_PLZ_suche extends GenericTest_New {
         //Step 1
         getBrowser();
         //Step 2
-        navigate(globalVar.__AutoSuggest__);
+        navigate(globalVar.__StartSeiteFavoriten__);
 
         //Step 3 to ??
         for (int i = 0; i < globalVar.searchStringList.size(); i++) {

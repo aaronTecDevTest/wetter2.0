@@ -50,16 +50,17 @@ public class TC2858_Favoritenmodul_Prüfen_der_Überschrift_Wettervorhersage ext
         globalVar.resultStringList.add("Berlin");
         globalVar.resultStringList.add("Frankfurt am Main");
         globalVar.resultStringList.add("Paris");
-        globalVar.resultStringList.add("New York (NY)");
+        globalVar.resultStringList.add("New York");
         globalVar.resultStringList.add("London");
       //  globalVar.resultStringList.add("Tokyo Narita");
         globalVar.resultStringList.add("Peking");
 
-       // setRunningConfiguration(new RunningConfiguration_New("CH", globalVar.__StartSeiteFavoriten__));
+       //setRunningConfiguration(new RunningConfiguration_New("CH", ""));
         //Step1
         getBrowser();
         //Step2
         navigate(globalVar.__StartSeiteFavoriten__);
+        //navigate("http://www.wetter.info");
         //Step3
         try {
             checkClickeElement(".//*[@id='Tsetfav2_ac']/ul/li[2]/a", globalVar.__FAVORETEN_MODUL_MeineFavoriten_Suchfeld1__, ".//*[@id='Tcontbox']/div[2]/div[3]/div[2]/div[1]/ul/li[1]/a");
@@ -97,7 +98,7 @@ public class TC2858_Favoritenmodul_Prüfen_der_Überschrift_Wettervorhersage ext
 
         for(int i =8; i<globalVar.searchStringList.size(); i++ ) {
             globalVar.stringSearch = globalVar.searchStringList.get(i);
-
+            pauseTest(1000);
             getWebElement(globalVar.__FAVORETEN_MODUL__Zahnrad__).click();
             pauseTest(500);
             getWebElement(globalVar.__FAVORETEN_MODUL_MeineFavoriten__).click();
@@ -123,6 +124,7 @@ public class TC2858_Favoritenmodul_Prüfen_der_Überschrift_Wettervorhersage ext
         for(int i =8; i<globalVar.searchStringList.size(); i++ ) {
             globalVar.stringSearch = globalVar.searchStringList.get(i);
 
+            pauseTest(1000);
             getWebElement(globalVar.__FAVORETEN_MODUL__Zahnrad__).click();
             pauseTest(500);
             getWebElement(globalVar.__FAVORETEN_MODUL_MeineFavoriten__).click();

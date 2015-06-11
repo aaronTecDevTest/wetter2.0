@@ -43,12 +43,13 @@ public class TC2774_Ausländische_Orte extends GenericTest_New {
                 + "Äquatorialguinea, Provinz Litoral"
                 + "");
 
-        //setRunningConfiguration(new RunningConfiguration_New("CH","Test"));
+       // setRunningConfiguration(new RunningConfiguration_New("CH",""));
         //Step 1
-        this.getBrowser();
+        getBrowser();
 
         //Step 2
-        this.navigate(globalVar.__StartSeiteFavoriten__);
+       // navigate("http://www.wetter.info");
+        navigate(globalVar.__StartSeiteFavoriten__);
 
         for (int i = 0; i < globalVar.searchStringList.size(); i++) {
             try {

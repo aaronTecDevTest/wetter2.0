@@ -54,11 +54,13 @@ public class TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter extends Gener
         globalVar.resultStringList.add("Wetter Tokyo Narita/New Intl");
         globalVar.resultStringList.add("Wetter Peking");
 
-      //  setRunningConfiguration(new RunningConfiguration_New("CH", globalVar.__StartSeiteFavoriten__));
+        //setRunningConfiguration(new RunningConfiguration_New("CH", ""));
         //Step1
         getBrowser();
         //Step2
         navigate(globalVar.__StartSeiteFavoriten__);
+        //navigate("http://www.wetter.info");
+
         //Step3
         try {
             checkClickeElement();
@@ -84,13 +86,13 @@ public class TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter extends Gener
 
         for(int i =0; i<globalVar.searchStringList.size(); i++ ) {
             globalVar.stringSearch = globalVar.searchStringList.get(i);
-
+            pauseTest(1000);
             getWebElement(globalVar.__FAVORETEN_MODUL__Zahnrad__).click();
-            pauseTest(500);
+            pauseTest(1000);
             getWebElement(globalVar.__FAVORETEN_MODUL_MeinStadt__).click();
 
             setInputFeldValue(globalVar.__FAVORETEN_MODUL_MeinStadt_Suchfeld___, globalVar.stringSearch);
-            pauseTest(500);
+            pauseTest(1000);
 
             element = getWebElement(".//*[@id='Tsetfav1_ac']/ul/li[2]/a/span[1]");
             element.click();

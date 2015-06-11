@@ -112,7 +112,6 @@ public class TC2694_Fehlschreibweisen extends GenericTest_New {
                 break;
             }
         }
-
         return check;
     }
 

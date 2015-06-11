@@ -29,13 +29,17 @@ public class TC2872_Werbung_ADTags_ADRectangles extends GenericTest_New {
         globalVar.searchStringList.add("<div id=\"vmcadsl\">");
         globalVar.searchStringList.add("<div id=\"vmcadsr\">");
 
+       // setRunningConfiguration(new RunningConfiguration_New("CH",""));
+
+        //Step1
         getBrowser();
+        //navigate("http://www.wetter.info");
         navigate(globalVar.__StartSeiteFavoriten__);
 
         //Step 2
         try {
             setInputFeldValue(globalVar._INPUT_BOX, "Frankfurt Main");
-            pauseTest(500);
+            pauseTest(1000);
             getWebElement(globalVar._INPUT_BOX).sendKeys(Keys.ARROW_DOWN);
             setInputFeldValue(globalVar._INPUT_BOX, "\n");
 
@@ -53,6 +57,7 @@ public class TC2872_Werbung_ADTags_ADRectangles extends GenericTest_New {
             listOfADRectangles.add(getWebElement(globalVar._Werbung_3));
             listOfADRectangles.add(getWebElement(globalVar._Werbung_4));
 
+            pauseTest(1000);
             for (int i = 0; i < globalVar.searchStringList.size(); i++) {
                 globalVar.stringSearch = globalVar.searchStringList.get(i);
 

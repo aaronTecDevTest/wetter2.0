@@ -63,12 +63,13 @@ public class TC2909_Top_Treffer_in_Suchergebnisseite extends GenericTest_New {
         picture.add(paris);
         picture.add(barcelona);
 
-       // setRunningConfiguration(new RunningConfiguration_New("CH", globalVar.__StartSeiteFavoriten__));
+        //setRunningConfiguration(new RunningConfiguration_New("CH", globalVar.__StartSeiteFavoriten__));
         //Step 1
-        this.getBrowser();
+        getBrowser();
 
         //Step 2
-        this.navigate(globalVar.__StartSeiteFavoriten__);
+        navigate(globalVar.__StartSeiteFavoriten__);
+        //navigate("http://www.wetter.info");
 
         //Step 3 to ??
         for (int i = 0; i < globalVar.resultStringList.size(); i++) {
@@ -78,7 +79,7 @@ public class TC2909_Top_Treffer_in_Suchergebnisseite extends GenericTest_New {
 
                 setInputFeldValue(globalVar._INPUT_BOX, globalVar.stringSearch);
                 getWebElement(globalVar._INPUT_BOX).submit();
-
+                pauseTest(1000);
                 List<WebElement> listOfSuchergebnisTop = this.getListSuchergebnis(globalVar._SUCHERGEBNISSEITE_TOP_ORT);
 
                 if (checkTopTreffer(listOfSuchergebnisTop, picture.get(i)) && checkTopTrefferWeiterenOrte()) {
@@ -88,7 +89,7 @@ public class TC2909_Top_Treffer_in_Suchergebnisseite extends GenericTest_New {
                     String fehler = " " + globalVar.stringSearch + " nicht in AutoSuggest gefunden.";
                     this.logFailureCheckpoint(fehler, globalVar.stringResult, listOfSuchergebnisTop.get(0).getText());
                 }
-
+                pauseTest(500);
                 getWebElement(globalVar._INPUT_BOX).clear();
             } catch (Exception e) {
                 globalVar.stringSearch = globalVar.stringSearch + " Liste ist leer!! " + globalVar.stringResult + " AutoSuggest ist leer.";

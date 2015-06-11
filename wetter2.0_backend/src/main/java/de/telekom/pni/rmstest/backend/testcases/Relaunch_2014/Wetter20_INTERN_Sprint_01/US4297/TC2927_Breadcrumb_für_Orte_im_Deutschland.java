@@ -21,11 +21,13 @@ public class TC2927_Breadcrumb_für_Orte_im_Deutschland extends GenericTest_New 
 
         globalVar.resultStringList.add("Sie sind hier: Wetter.info > Wetter Deutschland > Wetter Hessen > Wetter Darmstadt");
 
+       // setRunningConfiguration(new RunningConfiguration_New("CH", ""));
         //Step 1
         getBrowser();
 
         //Step 2
-        navigate(globalVar.__StartSeiteFavoriten__);
+       // navigate("http://www.wetter.info");
+       navigate(globalVar.__StartSeiteFavoriten__);
 
         /**
          * Result
@@ -51,7 +53,7 @@ public class TC2927_Breadcrumb_für_Orte_im_Deutschland extends GenericTest_New 
                 navigate(globalVar.__StartSeiteFavoriten__);
             }
         } catch (Exception e) {
-            globalVar.stringSearch = globalVar.stringSearch + " empty list!! " + globalVar.stringResult + " AD-Elements could be not found in Web";
+            globalVar.stringSearch = globalVar.stringSearch + " empty list!! " + globalVar.stringResult + " Elements could be not found in Web";
             this.logFailureCheckpoint(globalVar.stringSearch, globalVar.stringResult, "Test Fail");
         }
     }
@@ -80,6 +82,7 @@ public class TC2927_Breadcrumb_für_Orte_im_Deutschland extends GenericTest_New 
         WebElement breadcrumb;
 
         for (int i = 0; i < 12; i++) {
+            pauseTest(1000);
             breadcrumb = getWebElement(globalVar.__BREADCRUMB_ALL__);
 
             switch (i) {
@@ -92,6 +95,7 @@ public class TC2927_Breadcrumb_für_Orte_im_Deutschland extends GenericTest_New 
                         this.logFailureCheckpoint(Integer.toString(i), search, result);
                     }
                     checkBreadcrumbLink(search);
+                    pauseTest(1000);
                     getWebElement(".//*[@id='T-self.parsedId-1']/div[2]/p[1]/a").click();
                     break;
 
@@ -104,6 +108,7 @@ public class TC2927_Breadcrumb_für_Orte_im_Deutschland extends GenericTest_New 
                         this.logFailureCheckpoint(Integer.toString(i), search, result);
                     }
                     checkBreadcrumbLink(search);
+                    pauseTest(1000);
                     getWebElement(".//*[@id='Treitsci']/ul/li[2]/a").click();
                     break;
 
@@ -116,6 +121,7 @@ public class TC2927_Breadcrumb_für_Orte_im_Deutschland extends GenericTest_New 
                         this.logFailureCheckpoint(Integer.toString(i), search, result);
                     }
                     checkBreadcrumbLink(search);
+                    pauseTest(1000);
                     getWebElement(".//*[@id='Treitsci']/ul/li[3]/a").click();
                     break;
 
@@ -128,6 +134,7 @@ public class TC2927_Breadcrumb_für_Orte_im_Deutschland extends GenericTest_New 
                         this.logFailureCheckpoint(Integer.toString(i), search, result);
                     }
                     checkBreadcrumbLink(search);
+                    pauseTest(1000);
                     getWebElement(".//*[@id='Treitsci']/ul/li[4]/a").click();
                     break;
 
@@ -140,6 +147,7 @@ public class TC2927_Breadcrumb_für_Orte_im_Deutschland extends GenericTest_New 
                         this.logFailureCheckpoint(Integer.toString(i), search, result);
                     }
                     checkBreadcrumbLink(search);
+                    pauseTest(1000);
                     getWebElement(".//*[@id='Treitsci']/ul/li[5]/a").click();
                     break;
 
@@ -152,6 +160,7 @@ public class TC2927_Breadcrumb_für_Orte_im_Deutschland extends GenericTest_New 
                         this.logFailureCheckpoint(Integer.toString(i), search, result);
                     }
                     checkBreadcrumbLink(search);
+                    pauseTest(1000);
                     getWebElement(".//*[@id='Treitsci']/ul/li[6]/a").click();
                     break;
 
@@ -164,6 +173,7 @@ public class TC2927_Breadcrumb_für_Orte_im_Deutschland extends GenericTest_New 
                         this.logFailureCheckpoint(Integer.toString(i), search, result);
                     }
                     checkBreadcrumbLink(search);
+                    pauseTest(1000);
                     getWebElement(".//*[@id='Treitsci']/ul/li[7]/a").click();
                     break;
 
@@ -176,6 +186,7 @@ public class TC2927_Breadcrumb_für_Orte_im_Deutschland extends GenericTest_New 
                         this.logFailureCheckpoint(Integer.toString(i), search, result);
                     }
                     checkBreadcrumbLink(search);
+                    pauseTest(1000);
                     getWebElement(".//*[@id='Treitsci']/ul/li[8]/a").click();
                     break;
 
@@ -188,6 +199,7 @@ public class TC2927_Breadcrumb_für_Orte_im_Deutschland extends GenericTest_New 
                         this.logFailureCheckpoint(Integer.toString(i), search, result);
                     }
                     checkBreadcrumbLink(search);
+                    pauseTest(1000);
                     getWebElement(".//*[@id='Treitsci']/ul/li[9]/a").click();
                     break;
 
@@ -200,6 +212,7 @@ public class TC2927_Breadcrumb_für_Orte_im_Deutschland extends GenericTest_New 
                         this.logFailureCheckpoint(Integer.toString(i), search, result);
                     }
                     checkBreadcrumbLink(search);
+                    pauseTest(1000);
                     getWebElement(".//*[@id='Treitsci']/ul/li[10]/a").click();
                     break;
 
@@ -212,6 +225,7 @@ public class TC2927_Breadcrumb_für_Orte_im_Deutschland extends GenericTest_New 
                         this.logFailureCheckpoint(Integer.toString(i), search, result);
                     }
                     checkBreadcrumbLink(search);
+                    pauseTest(1000);
                     getWebElement(".//*[@id='Tcontbox']/div[2]/div[3]/div[2]/div[3]/div[2]/div[3]/div[1]/div/a[2]").click();
                     break;
 
@@ -229,7 +243,7 @@ public class TC2927_Breadcrumb_für_Orte_im_Deutschland extends GenericTest_New 
                 default:
                     break;
             }
-            pauseTest(500);
+
         }
         return check;
     }
@@ -238,34 +252,35 @@ public class TC2927_Breadcrumb_für_Orte_im_Deutschland extends GenericTest_New 
     public void checkBreadcrumbLink(String mainTitel) {
 
         String titel;
-
+        pauseTest(1000);
         getWebElement(globalVar.__BREADCRUMB_LINK1__).click();
-        pauseTest(500);
+        pauseTest(1000);
         titel = getBrowser().getTitle();
         if (titel.isEmpty()) {
             this.logFailureCheckpoint("Link1", mainTitel, "Page not found!");
         }
         getBrowser().navigate().back();
-
+        pauseTest(1000);
         //titel = "";
         getWebElement(globalVar.__BREADCRUMB_LINK2__).click();
-        pauseTest(500);
+        pauseTest(1000);
         titel = getBrowser().getTitle();
         if (titel.isEmpty()) {
             this.logFailureCheckpoint("Link2", mainTitel, "Page not found!");
         }
         getBrowser().navigate().back();
-
+        pauseTest(1000);
         //titel = "";
         getWebElement(globalVar.__BREADCRUMB_LINK3__).click();
-        pauseTest(500);
+        pauseTest(1000);
         titel = getBrowser().getTitle();
         if (titel.isEmpty()) {
             this.logFailureCheckpoint("Link3", mainTitel, "Page not found!");
         }
         getBrowser().navigate().back();
-
-        /*titel = "";
+        pauseTest(1000);
+        /*
+        titel = "";
         getWebElement(globalVar.__BREADCRUMB_LINK4__).click();
         pauseTest(500);
         titel = getBrowser().getTitle();

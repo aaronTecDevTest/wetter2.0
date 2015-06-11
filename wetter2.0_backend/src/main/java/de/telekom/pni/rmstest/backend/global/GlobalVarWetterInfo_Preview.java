@@ -3,7 +3,6 @@ package de.telekom.pni.rmstest.backend.global;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-
 public class GlobalVarWetterInfo_Preview extends GlobalVar {
 
     public GlobalVarWetterInfo_Preview() {
@@ -42,10 +41,9 @@ public class GlobalVarWetterInfo_Preview extends GlobalVar {
         super._BOX_WETTER__EINSTELLUNG_BUTTON = ".//*[@id='Tcontbox']/div[2]/div[3]/div[2]/div[1]/p";
         super._BOX_WETTER__BREADCRUMB = ".//*[@id='Tbcrumbinner']/div";
         super._BOX_WETTER__BREADCRUMB_aLink = ".//*[@id='Tbcrumbinner']/div/a[*]";
-        super._BOX_WETTER_h1 = "//*[@id=\"Tbcrumbinner\"]"; ////
+        super._BOX_WETTER_h1 = ".//*[@id='Tbcrumbinner']/div/h1";
         super._BOX_WETTER_h2 = ".//*[@id='Tcontbox']/div[2]/div[3]/div[2]/div[1]/h2";
-        super._BOX_WETTER_h3 = ".//*[@id='T-72211374']/div[2]/div/h3/span";
-        ////*[@id="T-64077184"]/div[2]/div/h6/span
+        super._BOX_WETTER_h3 = ".//*[@id='T-72211374']/div[2]/div/h3/span";////*[@id="T-64077184"]/div[2]/div/h6/span
 
         super._BOX_WETTER__3TAGE_ANSICHT = null;
         super._BOX_WETTER__WETER_KARTE = ".//*[@id='pwic_card']/div[20]/img";
@@ -151,8 +149,8 @@ public class GlobalVarWetterInfo_Preview extends GlobalVar {
         super.__All_Links__ = ".//a";
 
 
-        //Breadcrumb  LinkT-Tab
-      //  linkTab.add(".//*[@id='T-self.parsedId-1']/div[2]/span[6]");                                    //3-Tage Wetterseite (Übersicht)
+        //Breadcrumb  Link-Tab
+      //  linkTab.add(".//*[@id='T-self.parsedId-1']/div[2]/span[6]");                                   //3-Tage Wetterseite (Übersicht)
         linkTab.add(".//*[@id=\"T-17753306-1\"]/div[2]/span[6]/a");                                    //3-Tage Wetterseite (Übersicht)
         linkTab.add(".//*[@id='Treitsci']/ul/li[1]/a/");                                                //1.Tage Wetterseite
         linkTab.add(".//*[@id='Treitsci']/ul/li[2]/a/");                                                //2.Tage Wetterseite
