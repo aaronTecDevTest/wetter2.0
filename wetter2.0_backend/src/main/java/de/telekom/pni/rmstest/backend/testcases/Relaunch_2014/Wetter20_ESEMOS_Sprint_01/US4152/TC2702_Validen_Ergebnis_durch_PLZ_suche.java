@@ -39,7 +39,7 @@ public class TC2702_Validen_Ergebnis_durch_PLZ_suche extends GenericTest_New {
         getBrowser();
         //Step 2
         navigate(globalVar.__StartSeiteFavoriten__);
-
+        //navigate("http://www.wetter.info");
         //Step 3 to ??
         for (int i = 0; i < globalVar.searchStringList.size(); i++) {
             globalVar.stringSearch = globalVar.searchStringList.get(i);

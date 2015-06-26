@@ -46,6 +46,7 @@ public class TC2912_Non_Top_Treffer_ausgeklappt extends GenericTest_New {
 
         //Step 2
         this.navigate(globalVar.__StartSeiteFavoriten__);
+        //navigate("http://www.wetter.info");
 
         //Step 3 to ??
         for (int i = 0; i < globalVar.resultStringList.size(); i++) {

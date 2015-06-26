@@ -220,7 +220,10 @@ public class TC2854_Prüfen_H1_Tag extends GenericTest_New {
                         check = false;
                         this.logFailureCheckpoint(Integer.toString(i), search, result);
                     }
-                    getWebElement(".//*[@id='Tcontbox']/div[2]/div[3]/div[2]/div[3]/div[2]/div[3]/div[1]/div/a[2]").click();
+                    //getWebElement(".//*[@id='Tcontbox']/div[2]/div[3]/div[2]/div[3]/div[2]/div[3]/div[1]/div/a[2]").click();
+                    getWebElement("//*[@id=\"Tcontbox\"]/div[2]/div[3]/div[2]/div[3]/div[2]/div[3]/div[1]/div/a[2]/i").click();
+                    //*[@id="Tcontbox"]/div[2]/div[3]/div[2]/div[3]/div[2]/div[3]/div[1]/div/a[2]
+                    //*[@id='Tcontbox']/div[2]/div[3]/div[2]/div[3]/div[2]/div[3]/div[1]/div/a[2]
                     break;
 
                 case 11:

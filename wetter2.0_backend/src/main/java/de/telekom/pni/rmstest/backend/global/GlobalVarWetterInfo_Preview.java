@@ -102,7 +102,8 @@ public class GlobalVarWetterInfo_Preview extends GlobalVar {
         super.__WEBSIDE__ = "www.wetter.info";
         super.__AutoSuggest__ = "http://portal.wetter.info/winfo/wetter-deutschland/hessen/kreisfreie-stadt-darmstadt/wetter-darmstadt/K06411000?preview=1";
         super.__Suchergebnisseite = "http://cm7prev.ada.t-online.de/toiPortal/servlet/suche/sp_frank/62174516";
-        super.__StartSeiteFavoriten__ = "http://cm7prev.ada.t-online.de/toiPortal/servlet/-/sp_moskau/17568854";
+        //super.__StartSeiteFavoriten__ = "http://cm7prev.ada.t-online.de/toiPortal/servlet/-/sp_moskau/17568854";
+        super.__StartSeiteFavoriten__ = "http://wetter.info";
         super.__SUCHWEBSIDE_3TageAnsicht__ = "http://portal.wetter.info/winfo/wetter-deutschland/hessen/kreisfreie-stadt-darmstadt/wetter-darmstadt/K06411000?preview=1";
         super.__SUCHWEBSIDE_3TageAnsicht_Preview__ = "http://portal.wetter.info/winfo/wetter-deutschland/hessen/kreisfreie-stadt-darmstadt/wetter-darmstadt/K06411000?preview=1";
         super.__SUCHESTATION_ID__ = "http://portal.wetter.info/winfo/wetter-deutschland/hessen/kreisfreie-stadt-darmstadt/wetter-darmstadt/";

@@ -58,7 +58,7 @@ public class TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter extends Gener
         //Step1
         getBrowser();
         //Step2
-        navigate(globalVar.__StartSeiteFavoriten__);
+       // navigate(globalVar.__StartSeiteFavoriten__);
         //navigate("http://www.wetter.info");
 
         //Step3
@@ -85,6 +85,7 @@ public class TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter extends Gener
         WebElement element;
 
         for(int i =0; i<globalVar.searchStringList.size(); i++ ) {
+            navigate(globalVar.__StartSeiteFavoriten__);
             globalVar.stringSearch = globalVar.searchStringList.get(i);
             pauseTest(1000);
             getWebElement(globalVar.__FAVORETEN_MODUL__Zahnrad__).click();
@@ -110,17 +111,19 @@ public class TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter extends Gener
         String city;
 
         for(int i =0; i<globalVar.searchStringList.size(); i++ ) {
+            navigate(globalVar.__StartSeiteFavoriten__);
+            pauseTest(1000);
             globalVar.stringSearch = globalVar.searchStringList.get(i);
 
             getWebElement(globalVar.__FAVORETEN_MODUL__Zahnrad__).click();
-            pauseTest(500);
+            pauseTest(1000);
             getWebElement(globalVar.__FAVORETEN_MODUL_MeinStadt__).click();
 
             setInputFeldValue(globalVar.__FAVORETEN_MODUL_MeinStadt_Suchfeld___, globalVar.stringSearch);
-            pauseTest(500);
+            pauseTest(1000);
 
             getWebElement(globalVar.__FAVORETEN_MODUL_MeinStadt_Suchfeld___).sendKeys(Keys.ARROW_DOWN);
-            pauseTest(500);
+            pauseTest(1000);
 
             getWebElement(globalVar.__FAVORETEN_MODUL_MeinStadt_Speichern___).click();
             pauseTest(2000);

@@ -27,18 +27,20 @@ public class TC2907_Prüfen_von_Verlinkung_SEO_Power extends GenericTest_New {
     public void runTest() {
 
         globalVar = getGlobalVar();
+        //setRunningConfiguration(new RunningConfiguration_New("CH","test"));
         rc = getRunningConfiguration();
 
         //Gilt nur für t-online.de/wetter
         String seoPower;
         WebElement seoPowerLinke;
 
-        if (rc == null) {
+        //if (rc == null) {
+        if (rc != null) {
             globalVar.__StartSeiteFavoriten__ = "http://cm7prev.ada.t-online.de/toiPortal/servlet/wetter/sp_moskau/12347708";
             globalVar._INPUT_BOX = "//*[@id=\"searchPattern\"]";
             seoPower = "//*[@id=\"Twtosearch_pow\"]/a";
         } else {
-            globalVar.__StartSeiteFavoriten__ = "www.t-online.de/wetter";
+            globalVar.__StartSeiteFavoriten__ = "http://www.t-online.de/wetter";
             globalVar._INPUT_BOX = "//*[@id=\"searchPattern\"]]";
             seoPower = "//*[@id=\"Twtosearch_pow\"]/a";
         }
@@ -52,14 +54,14 @@ public class TC2907_Prüfen_von_Verlinkung_SEO_Power extends GenericTest_New {
         globalVar.searchStringList.add("London");
         globalVar.searchStringList.add("Kapstadt");
 
-        globalVar.resultStringList.add("ww.wetter.info");
-        globalVar.resultStringList.add("ww.wetter.info");
-        globalVar.resultStringList.add("ww.wetter.info");
-        globalVar.resultStringList.add("ww.wetter.info");
-        globalVar.resultStringList.add("ww.wetter.info");
-        globalVar.resultStringList.add("ww.wetter.info");
-        globalVar.resultStringList.add("ww.wetter.info");
-        globalVar.resultStringList.add("ww.wetter.info");
+        globalVar.resultStringList.add("http://www.wetter.info");
+        globalVar.resultStringList.add("http://www.wetter.info");
+        globalVar.resultStringList.add("http://www.wetter.info");
+        globalVar.resultStringList.add("http://www.wetter.info");
+        globalVar.resultStringList.add("http://www.wetter.info");
+        globalVar.resultStringList.add("http://www.wetter.info");
+        globalVar.resultStringList.add("http://www.wetter.info");
+        globalVar.resultStringList.add("http://www.wetter.info");
 
        /* globalVar.resultStringList.add("wetter-deutschland/hessen/kreis-gross-gerau/wetter-gross-gerau/K06433006");
         globalVar.resultStringList.add("wetter-frankreich/ile-de-france/wetter-paris/N-2085971");
@@ -83,12 +85,13 @@ public class TC2907_Prüfen_von_Verlinkung_SEO_Power extends GenericTest_New {
                 globalVar.stringSearch = globalVar.searchStringList.get(i);
                 globalVar.stringResult = globalVar.resultStringList.get(i);
 
+                pauseTest(1000);
                 setInputFeldValue(globalVar._INPUT_BOX, globalVar.stringSearch);
-                pauseTest(500);
+                pauseTest(1000);
                 getWebElement(globalVar._INPUT_BOX).sendKeys(Keys.ARROW_DOWN);
 
                 getWebElement(globalVar._INPUT_BOX).sendKeys("\n");
-                pauseTest(500);
+                pauseTest(1000);
 
                 seoPowerLinke = getWebElement(seoPower);
 

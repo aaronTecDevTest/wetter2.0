@@ -41,7 +41,6 @@ public class TC2928_Breadcrumb_für_Orte_im_Ausland extends GenericTest_New {
                 getWebElement(globalVar._INPUT_BOX).sendKeys(Keys.ARROW_DOWN);
                 setInputFeldValue(globalVar._INPUT_BOX, "\n");
 
-
                 if (checkBreadcrumb(globalVar.stringResult)) {
                     globalVar.stringSearch = "String" + globalVar.stringResult + " was found in Web";
                     //logSuccessCheckpoint(globalVar.stringResult, listOfAutoSuggest.get(j).getText());

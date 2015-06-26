@@ -69,7 +69,8 @@ public class TC2925_MetaDescription_Deutschland extends GenericTest_New {
         getBrowser();
 
         //Step 2
-        navigate(globalVar.__StartSeiteFavoriten__);
+       navigate(globalVar.__StartSeiteFavoriten__);
+
         try {
 
             for (int i = 0; i < 1; i++) {

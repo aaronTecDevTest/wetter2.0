@@ -54,12 +54,12 @@ public class TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten extends GenericTes
         globalVar.resultStringList.add("Wetter Tokyo Narita/New Intl");
         globalVar.resultStringList.add("Wetter Peking");
 
-        setRunningConfiguration(new RunningConfiguration_New("CH", globalVar.__StartSeiteFavoriten__));
+       // setRunningConfiguration(new RunningConfiguration_New("CH", globalVar.__StartSeiteFavoriten__));
         //Step1
         getBrowser();
         //Step2
-        //navigate(globalVar.__StartSeiteFavoriten__);
-        navigate("http://www.wetter.info");
+
+       // navigate("http://www.wetter.info");
         //Step3
         try {
             checkClickeElement();
@@ -84,8 +84,9 @@ public class TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten extends GenericTes
         WebElement element;
 
         for(int i =0; i<globalVar.searchStringList.size(); i++ ) {
+            navigate(globalVar.__StartSeiteFavoriten__);
             globalVar.stringSearch = globalVar.searchStringList.get(i);
-
+            pauseTest(1000);
             getWebElement(globalVar.__FAVORETEN_MODUL__Zahnrad__).click();
             pauseTest(2000);
             getWebElement(globalVar.__FAVORETEN_MODUL_MeinStadt__).click();
@@ -110,23 +111,24 @@ public class TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten extends GenericTes
         String city;
 
         for(int i =0; i<globalVar.searchStringList.size(); i++ ) {
+            navigate(globalVar.__StartSeiteFavoriten__);
             globalVar.stringSearch = globalVar.searchStringList.get(i);
-
+            pauseTest(1000);
             getWebElement(globalVar.__FAVORETEN_MODUL__Zahnrad__).click();
-            pauseTest(100);
+            pauseTest(1000);
             getWebElement(globalVar.__FAVORETEN_MODUL_MeinStadt__).click();
 
             setInputFeldValue(globalVar.__FAVORETEN_MODUL_MeinStadt_Suchfeld___, globalVar.stringSearch);
-            pauseTest(100);
+            pauseTest(1000);
 
             getWebElement(globalVar.__FAVORETEN_MODUL_MeinStadt_Suchfeld___).sendKeys(Keys.ARROW_DOWN);
-            pauseTest(100);
+            pauseTest(1000);
 
             getWebElement(globalVar.__FAVORETEN_MODUL_MeinStadt_Speichern___).click();
             pauseTest(1000);
 
             city = getWebElement(globalVar._WETTER_ORT_H1).getText();
-
+            pauseTest(1000);
             if(!city.contains(globalVar.resultStringList.get(i))) {
                 logFailureCheckpoint(Integer.toString(i)+ " Click on Button \"Speichern\"",globalVar.resultStringList.get(i), city);
             }
