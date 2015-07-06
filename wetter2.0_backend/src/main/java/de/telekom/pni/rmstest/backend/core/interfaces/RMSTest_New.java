@@ -37,7 +37,5 @@ public interface RMSTest_New extends Test {
 
     public Report finalizeReport(String testName);
 
-
     public void closeBrowser();
-
 }

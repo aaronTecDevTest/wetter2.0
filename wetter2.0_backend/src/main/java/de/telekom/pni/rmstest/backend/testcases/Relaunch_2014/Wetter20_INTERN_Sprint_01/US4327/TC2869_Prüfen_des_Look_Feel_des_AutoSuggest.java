@@ -23,7 +23,8 @@ import de.telekom.pni.rmstest.backend.global.GlobalVarTOnline_Preview;
 public class TC2869_Prüfen_des_Look_Feel_des_AutoSuggest extends GenericTest_New {
     private GlobalVar globalVar = null;
     public ScreenRegion screenRegion = new DesktopScreenRegion(1, 0, 0, 1920, 1080);
-    public String picOrdner = "U:/01_Dev/Wetter_2.0/Testcode/workspace/wetter2.0/wetter2.0_backend/src/main/resources/sikuli.images/";
+    public String picOrdner = "../wetter2.0/wetter2.0_backend/src/main/resources/sikuli.images/";
+   // public String picOrdner = "C:\\Users\\a.kutekidila\\Dev\\GitHub\\wetter2.0\\wetter2.0_backend\\src\\main\\resources\\sikuli.images";
 
     public Target wetterInfoBest = new ImageTarget(new File(picOrdner + "wetter_info/TC2869_Best_Treffer.PNG"));
     public Target wetterInfoDeutsch = new ImageTarget(new File(picOrdner + "wetter_info/TC2869_Deutschland.PNG"));
