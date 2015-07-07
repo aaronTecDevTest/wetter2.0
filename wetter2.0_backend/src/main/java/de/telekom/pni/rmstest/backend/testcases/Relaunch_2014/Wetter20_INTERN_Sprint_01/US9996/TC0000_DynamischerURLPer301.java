@@ -93,7 +93,7 @@ public class TC0000_DynamischerURLPer301 extends GenericTest_New {
         String[] temp = null;
 
         String dateiOrdner = "../wetter2.0/wetter2.0_backend/src/main/resources/";
-        String dateiName = dateiOrdner + "dynamischerURL.properties";
+        String dateiName = dateiOrdner + "dynamischerURLAll.properties";
 
         try {
             content = new String(Files.readAllBytes(Paths.get(dateiName)));
@@ -107,7 +107,7 @@ public class TC0000_DynamischerURLPer301 extends GenericTest_New {
 
     private void arrayToFile() {
         String dateiOrdner = "../wetter2.0/wetter2.0_backend/src/main/resources/";
-        String dateiName = "dynamischerURL.result";
+        String dateiName = "dynamischerURLAll.result";
         Path path = Paths.get(dateiOrdner, dateiName);
         Charset charset = Charset.forName("UTF-8");
         OpenOption op = StandardOpenOption.WRITE;
@@ -122,9 +122,13 @@ public class TC0000_DynamischerURLPer301 extends GenericTest_New {
     public boolean checkURL() {
         boolean check = false;
         String tempString = "";
+
         try {
+            pauseTest(2000);
             tempString = getBrowser().getCurrentUrl();
-            if (tempString.contains("http://www.wetter.info/deutschland-wetter/")) {
+            boolean wetterInfo = tempString.contains("http://www.wetter.info/deutschland-wetter/");
+            boolean toiWetter =  tempString.contains("http://www.t-online.de/wetter/deutschland-wetter/");
+            if (wetterInfo || toiWetter) {
                 check = true;
             }
         } catch (Exception e) {
