@@ -81,7 +81,8 @@ public abstract class GenericTest_New implements RMSTest_New {
     private StepLogger stepLogger;
     private Report report;
     private WebDriver browser;
-    WebDriverManager_New driverManager = new WebDriverManager_New();
+
+    public WebDriverManager_New driverManager = new WebDriverManager_New();
 
 
     public GenericTest_New() {
