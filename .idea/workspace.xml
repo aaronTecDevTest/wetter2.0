@@ -2,12 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e2f1897-6aff-4116-8c10-7ff77ca32190" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/core/GenericTest_New.java" afterPath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/core/GenericTest_New.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US9996/TC0000_DynamischerURLPer301.java" afterPath="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US9996/TC0000_DynamischerURLPer301.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/src/main/resources/dynamischerURL.properties" afterPath="$PROJECT_DIR$/wetter2.0_backend/src/main/resources/dynamischerURL.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/src/main/resources/dynamischerURL.result" afterPath="$PROJECT_DIR$/wetter2.0_backend/src/main/resources/dynamischerURL.result" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/src/main/resources/dynamischerURLAll.result" afterPath="$PROJECT_DIR$/wetter2.0_backend/src/main/resources/dynamischerURLAll.result" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/core/GenericTest_New$1.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/core/GenericTest_New$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/core/GenericTest_New.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/core/GenericTest_New.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/externalReporting/RallyExternalReportingImpl.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/externalReporting/RallyExternalReportingImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/manager/WebDriverManager.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/manager/WebDriverManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/manager/WebDriverManager_New.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/manager/WebDriverManager_New.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4294/TC2838_Tab_Logik_Deutschland.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4294/TC2838_Tab_Logik_Deutschland.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4294/TC2852_Tab_Logik_Ausland.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4294/TC2852_Tab_Logik_Ausland.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4296/TC2925_MetaDescription_Deutschland.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4296/TC2925_MetaDescription_Deutschland.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4296/TC2926_MetaDescription_Ausland.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4296/TC2926_MetaDescription_Ausland.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4297/TC2927_Breadcrumb_für_Orte_im_Deutschland.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4297/TC2927_Breadcrumb_für_Orte_im_Deutschland.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4297/TC2928_Breadcrumb_für_Orte_im_Ausland.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4297/TC2928_Breadcrumb_für_Orte_im_Ausland.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4298/TC2854_Prüfen_H1_Tag.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4298/TC2854_Prüfen_H1_Tag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4303/TC2907_Prüfen_von_Verlinkung_SEO_Power.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4303/TC2907_Prüfen_von_Verlinkung_SEO_Power.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC2858_Favoritenmodul_Prüfen_der_Überschrift_Wettervorhersage.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC2858_Favoritenmodul_Prüfen_der_Überschrift_Wettervorhersage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US5430/TC3016_Direkte_Verlinkung_Wetterdetailsseite.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US5430/TC3016_Direkte_Verlinkung_Wetterdetailsseite.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US9996/TC3168_Prüfen_der_WertterStationsIDDE.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US9996/TC3168_Prüfen_der_WertterStationsIDDE.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US9996/TC3170_Prüfen_der_WertterStationsIDIN.class" afterPath="$PROJECT_DIR$/wetter2.0_backend/target/classes/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US9996/TC3170_Prüfen_der_WertterStationsIDIN.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetter2.0_frontend/pom.xml" afterPath="$PROJECT_DIR$/wetter2.0_frontend/pom.xml" />
     </list>
     <ignored path="wetter2.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,135 +67,15 @@
     <favorites_list name="wetter2.0" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ApplicationWindows_New.java" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ApplicationWindows_New.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wetter2.0_frontend/src/main/java/de/telekom/pni/rmstest/frontend/view/ApplicationWindows_New.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="499" column="39" selection-start-line="499" selection-start-column="39" selection-end-line="499" selection-end-column="39" />
-              <folding>
-                <element signature="method#widgetSelected#0;class#7627:9916" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RallyExternalReportingImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/externalReporting/RallyExternalReportingImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="method#RallyExternalReportingImpl#0;class#RallyExternalReportingImpl#0" expanded="false" />
-                <element signature="method#disconnect#0;class#RallyExternalReportingImpl#0" expanded="false" />
-                <element signature="method#getTestSet#0;class#RallyExternalReportingImpl#0" expanded="false" />
-                <element signature="method#getTestSets#0;class#RallyExternalReportingImpl#0" expanded="false" />
-                <element signature="method#getTestSetID#0;class#RallyExternalReportingImpl#0" expanded="false" />
-                <element signature="method#writeTestResult#0;class#RallyExternalReportingImpl#0" expanded="false" />
-                <element signature="method#writeDataToRally#0;class#RallyExternalReportingImpl#0" expanded="false" />
-                <element signature="method#now#0;class#RallyExternalReportingImpl#0" expanded="false" />
-                <element signature="method#getTestlabStructure#0;class#RallyExternalReportingImpl#0" expanded="false" />
-                <element signature="method#getTestSetList#0;class#RallyExternalReportingImpl#0" expanded="false" />
-                <element signature="method#getTestSetToList#0;class#RallyExternalReportingImpl#0" expanded="false" />
-                <element signature="method#createJTreeNodes#0;class#RallyExternalReportingImpl#0" expanded="false" />
-                <element signature="method#statusToString#0;class#RallyExternalReportingImpl#0" expanded="false" />
-                <element signature="method#getCurrentUser#0;class#RallyExternalReportingImpl#0" expanded="false" />
-                <element signature="method#getTestCaseFromRally#0;class#RallyExternalReportingImpl#0" expanded="false" />
-                <element signature="method#getTestCasesForJTestSet#0;class#RallyExternalReportingImpl#0" expanded="false" />
-                <element signature="method#getJTestSet#0;class#RallyExternalReportingImpl#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PropertiesManager_New.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/manager/PropertiesManager_New.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="161" column="6" selection-start-line="161" selection-start-column="6" selection-end-line="161" selection-end-column="6" />
-              <folding>
-                <element signature="method#setProperty#0;class#PropertiesManager_New#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebDriverManager_New.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/manager/WebDriverManager_New.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="200" column="5" selection-start-line="32" selection-start-column="3" selection-end-line="200" selection-end-column="5" />
+            <state relative-caret-position="802">
+              <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TC2782_Prüfen_der_Datenbank_Feldern.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4116/TC2782_Prüfen_der_Datenbank_Feldern.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
-              <folding>
-                <element signature="method#runTest#0;class#TC2782_Prüfen_der_Datenbank_Feldern#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GenericTest_New.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/core/GenericTest_New.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
-              <folding>
-                <element signature="e#3504#3505#0" expanded="true" />
-                <element signature="e#3550#3551#0" expanded="true" />
-                <element signature="method#getBrowser#0;class#GenericTest_New#0" expanded="true" />
-                <element signature="method#setBrowserFirefox#0;class#GenericTest_New#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelendroidAppOnTwoDeviceWithGeneric.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/archiv/SelendroidAppOnTwoDeviceWithGeneric.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelendroidAppOnTwoDevice.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/archiv/SelendroidAppOnTwoDevice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelendroidApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/archiv/SelendroidApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MobileWeb1.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/archiv/MobileWeb1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25835866">
-              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -209,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4436/TC2871_Automatische_verbreiten_des_AutoSuggest.java" />
         <option value="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US5430/TC3016_Direkte_Verlinkung_Wetterdetailsseite.java" />
         <option value="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US5480/TC2699_Suche_mit_Sonderzeichen.java" />
         <option value="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US9998/TC9998_Manuell_Testing.java" />
@@ -242,24 +137,25 @@
         <option value="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4327/TC2869_Prüfen_des_Look_Feel_des_AutoSuggest.java" />
         <option value="$PROJECT_DIR$/wetter2.0_backend/src/main/resources/dynamischerURLAll.result" />
         <option value="$PROJECT_DIR$/wetter2.0_backend/src/main/resources/dynamischerURL.properties" />
-        <option value="$USER_HOME$/Desktop/Wetterbox_breit.html" />
-        <option value="$USER_HOME$/Desktop/Wetterbox.html" />
-        <option value="$USER_HOME$/Desktop/Wetterbox_schmal.html" />
+        <option value="$PROJECT_DIR$/../../../../Wetterbox_breit.html" />
+        <option value="$PROJECT_DIR$/../../../../Wetterbox.html" />
+        <option value="$PROJECT_DIR$/../../../../Wetterbox_schmal.html" />
         <option value="$PROJECT_DIR$/../JavaFX/Arrival/arrival_main.fxml" />
         <option value="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US9996/TC0000_DynamischerURLPer301.java" />
         <option value="$PROJECT_DIR$/wetter2.0_backend/src/main/resources/dynamischerURL.result" />
-        <option value="$USER_HOME$/Desktop/JavaFX/Arrival/arrivalCss.css" />
-        <option value="$USER_HOME$/Desktop/JavaFX/Arrival/arrivalToolbar.css" />
-        <option value="$USER_HOME$/Desktop/JavaFX/Arrival/aarivalMain.fxml" />
-        <option value="$USER_HOME$/Desktop/JavaFX/Arrival/arrivalOptions/arrivalOptions.fxml" />
+        <option value="$PROJECT_DIR$/../../../../JavaFX/Arrival/arrivalCss.css" />
+        <option value="$PROJECT_DIR$/../../../../JavaFX/Arrival/arrivalToolbar.css" />
+        <option value="$PROJECT_DIR$/../../../../JavaFX/Arrival/aarivalMain.fxml" />
+        <option value="$PROJECT_DIR$/../../../../JavaFX/Arrival/arrivalOptions/arrivalOptions.fxml" />
         <option value="$PROJECT_DIR$/wetter2.0_frontend/src/main/java/de/tecdevtest/arrivalOcto/main/RunArrivalOcto.java" />
         <option value="$PROJECT_DIR$/wetter2.0_frontend/src/main/java/com/arrivalOcto/main/RunArrivalOcto.java" />
         <option value="$PROJECT_DIR$/wetter2.0_frontend/src/main/java/com/arrival/main/RunArrivalOcto.java" />
         <option value="$PROJECT_DIR$/wetter2.0_frontend/src/main/java/com/arrival/windows/model/TestCase.java.url" />
         <option value="$PROJECT_DIR$/wetter2.0_frontend/src/main/java/com/arrival/windows/model/TestCase.java" />
-        <option value="$USER_HOME$/Desktop/JavaFX/Arrival/arrivalMain.css" />
-        <option value="$USER_HOME$/Desktop/JavaFX/Arrival/arrivalMain.fxml" />
+        <option value="$PROJECT_DIR$/../../../../JavaFX/Arrival/arrivalMain.css" />
+        <option value="$PROJECT_DIR$/../../../../JavaFX/Arrival/arrivalMain.fxml" />
         <option value="$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/core/GenericTest_New.java" />
+        <option value="$PROJECT_DIR$/wetter2.0_frontend/pom.xml" />
       </list>
     </option>
   </component>
@@ -344,9 +240,6 @@
   <component name="MavenRunner">
     <option name="runMavenInBackground" value="false" />
   </component>
-  <component name="NamedScopeManager">
-    <order />
-  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-1088" />
     <option name="y" value="-8" />
@@ -390,8 +283,11 @@
       <autoscrollToSource ProjectPane="true" />
       <autoscrollFromSource ProjectPane="true" />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -643,10 +539,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -771,48 +663,9 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wetter2.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wetter2.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wetter2.0_backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="archiv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -833,7 +686,6 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="true" />
     <property name="SearchEverywhereHistoryKey" value="testng&#9;PSI&#9;JAVA://de.telekom.pni.rmstest.backend.testng.RunTestNGClasses&#10;mana&#9;PSI&#9;JAVA://de.telekom.pni.rmstest.backend.core.GenericTest_New#driverManager&#10;verli&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4303/TC2907_Prüfen_von_Verlinkung_SEO_Power.java&#10;verlin&#9;PSI&#9;JAVA://de.telekom.pni.rmstest.backend.testcases.Relaunch_2014.Wetter20_INTERN_Sprint_01.US5430.TC3016_Direkte_Verlinkung_Wetterdetailsseite&#10;link&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4303/TC2907_Prüfen_von_Verlinkung_SEO_Power.java&#10;TC2695&#9;PSI&#9;JAVA://de.telekom.pni.rmstest.backend.testcases.Relaunch_2014.Wetter20_INTERN_Sprint_01.US5480.TC2695_Mallorca_Suche_mit_Teilstring&#10;3167&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten.java&#10;2857&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter.java&#10;2928&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4297/TC2928_Breadcrumb_für_Orte_im_Ausland.java&#10;2907&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4303/TC2907_Prüfen_von_Verlinkung_SEO_Power.java&#10;2856&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4298/TC2856_Prüfen_H3_Tag.java&#10;2854&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4298/TC2854_Prüfen_H1_Tag.java&#10;TC2926&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4296/TC2926_MetaDescription_Ausland.java&#10;4296&#9;null&#9;null&#10;2925&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4296/TC2925_MetaDescription_Deutschland.java&#10;2912&#9;PSI&#9;JAVA://de.telekom.pni.rmstest.backend.testcases.Relaunch_2014.Wetter20_INTERN_Sprint_01.US4329.TC2912_Non_Top_Treffer_ausgeklappt&#10;2774&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US5431/TC2774_Ausländische_Orte.java&#10;2707&#9;PSI&#9;JAVA://de.telekom.pni.rmstest.backend.testcases.Relaunch_2014.Wetter20_INTERN_Sprint_01.US5426.TC2707_AutoSuggest_für_ausländische_Orte&#10;2702&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_ESEMOS_Sprint_01/US4152/TC2702_Validen_Ergebnis_durch_PLZ_suche.java&#10;glo&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/global/GlobalVarWetterInfo_Preview.java&#10;2927&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4297/TC2927_Breadcrumb_für_Orte_im_Deutschland.java&#10;2872&#9;PSI&#9;JAVA://de.telekom.pni.rmstest.backend.testcases.Relaunch_2014.Wetter20_INTERN_Sprint_01.US4305.TC2872_Werbung_ADTags_ADRectangles&#10;2909&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4329/TC2909_Top_Treffer_in_Suchergebnisseite.java&#10;TC2909_Top_Treffer_in_Suchergebnisseite&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4329/TC2909_Top_Treffer_in_Suchergebnisseite.java&#10;2712&#9;PSI&#9;JAVA://de.telekom.pni.rmstest.backend.testcases.Relaunch_2014.Wetter20_INTERN_Sprint_01.US5427.TC2712_Top_Treffer_Für_In_und_Ausland&#10;2708&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US5426/TC2708_AutoSuggest_Auslandorte_mit_Klicken.java&#10;TC2774_Ausländische_Orte&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US5431/TC2774_Ausländische_Orte.java&#10;TC2721_Städten_mit_Landeskreis&#9;PSI&#9;JAVA://de.telekom.pni.rmstest.backend.testcases.Relaunch_2014.Wetter20_INTERN_Sprint_01.US5430.TC2721_Städten_mit_Landeskreis&#10;plz&#9;PSI&#9;JAVA://de.telekom.pni.rmstest.backend.testcases.Relaunch_2014.Wetter20_ESEMOS_Sprint_01.US4152.TC2702_Validen_Ergebnis_durch_PLZ_suche&#10;3105&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4295/TC3105_Prüfen_von_HTML_Title_St_Pauli.java&#10;2906&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4303/TC2906_Prüfen_von_Canonical_Tag.java&#10;2867&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4314/TC2867_Weiterleitung_der_alte_URL.java&#10;2853&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4295/TC2853_Prüfen_von_HTML_Title.java&#10;US4294&#9;null&#9;null&#10;2699&#9;PSI&#9;JAVA://de.telekom.pni.rmstest.backend.testcases.Relaunch_2014.Wetter20_INTERN_Sprint_01.US5480.TC2699_Suche_mit_Sonderzeichen&#10;h3&#9;PSI&#9;JAVA://de.telekom.pni.rmstest.backend.testcases.Relaunch_2014.Wetter20_INTERN_Sprint_01.US4298.TC2856_Prüfen_H3_Tag&#10;2926&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4296/TC2926_MetaDescription_Ausland.java&#10;tc2928&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4297/TC2928_Breadcrumb_für_Orte_im_Ausland.java&#10;tc2867&#9;PSI&#9;JAVA://de.telekom.pni.rmstest.backend.testcases.Relaunch_2014.Wetter20_INTERN_Sprint_01.US4314.TC2867_Weiterleitung_der_alte_URL&#10;tc3167&#9;PSI&#9;JAVA://de.telekom.pni.rmstest.backend.testcases.Relaunch_2014.Wetter20_INTERN_Sprint_01.US4434.TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten&#10;TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten.java&#10;TC2858_Favoritenmodul_Prüfen_der_Überschrift_Wettervorhersage&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC2858_Favoritenmodul_Prüfen_der_Überschrift_Wettervorhersage.java&#10;TC3016_Direkte_Verlinkung_Wetterdetailsseite&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US5430/TC3016_Direkte_Verlinkung_Wetterdetailsseite.java&#10;TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4434/TC2857_Favoritenmodul_Prüfen_der_Überschrift_Wetter.java&#10;TC2853_Prüfen_von_HTML_Title&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4295/TC2853_Prüfen_von_HTML_Title.java&#10;TC2722_Kreisfeien_Städten&#9;PSI&#9;JAVA://de.telekom.pni.rmstest.backend.testcases.Relaunch_2014.Wetter20_INTERN_Sprint_01.US5430.TC2722_Kreisfeien_Städten&#10;gene&#9;PSI&#9;JAVA://de.telekom.pni.rmstest.backend.core.GenericTest_New&#10;WebDriver&#9;PSI&#9;JAVA://de.telekom.pni.rmstest.backend.manager.WebDriverManager_New&#10;manager&#9;PSI&#9;JAVA://de.telekom.pni.rmstest.backend.manager.test.Test_WebDriverManager&#10;tc2923&#9;FILE&#9;file://C:/Users/a.kutekidila/Dev/GitHub/wetter2.0/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4304/TC2923_Pruefen_von_regionalen_Elemente.java" />
-    <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
@@ -985,53 +837,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module />
       <option name="HTML_USED" value="false" />
@@ -1056,24 +861,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -1081,9 +869,9 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -1130,7 +918,6 @@
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -1140,9 +927,9 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
@@ -1157,20 +944,64 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="XSLT" factoryName="XSLT">
-      <option name="myOutputFile" />
-      <option name="myOpenOutputFile" value="false" />
-      <option name="myOpenInBrowser" value="false" />
-      <option name="mySmartErrorHandling" value="true" />
-      <option name="myRunnerPort" value="34873" />
-      <option name="myVmArguments" />
-      <option name="myWorkingDirectory" />
-      <option name="myModule" />
-      <option name="myJdk" />
-      <parameters />
-      <OutputType value="CONSOLE" save-to-file="false" />
-      <FileType name="XML" />
-      <JdkChoice value="FROM_MODULE" />
+    <configuration default="false" name="SimpleTest1" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="wetter2.0_backend" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="de.telekom.pni.rmstest.backend.testng.test" />
+      <option name="MAIN_CLASS_NAME" value="de.telekom.pni.rmstest.backend.testng.test.SimpleTest1" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" value="" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SimpleTest2" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="wetter2.0_backend" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="de.telekom.pni.rmstest.backend.testng.test" />
+      <option name="MAIN_CLASS_NAME" value="de.telekom.pni.rmstest.backend.testng.test.SimpleTest2" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" value="" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="false" name="RunCreateTNGSuite" type="Application" factoryName="Application" nameIsGenerated="true">
@@ -1241,66 +1072,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="SimpleTest1" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="wetter2.0_backend" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="de.telekom.pni.rmstest.backend.testng.test" />
-      <option name="MAIN_CLASS_NAME" value="de.telekom.pni.rmstest.backend.testng.test.SimpleTest1" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" value="" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="SimpleTest2" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="wetter2.0_backend" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="de.telekom.pni.rmstest.backend.testng.test" />
-      <option name="MAIN_CLASS_NAME" value="de.telekom.pni.rmstest.backend.testng.test.SimpleTest2" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" value="" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="TC2869_Prüfen_des_Look_Feel_des_AutoSuggest" type="Application" factoryName="Application" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1322,12 +1093,12 @@
       <method />
     </configuration>
     <list size="12">
-      <item index="0" class="java.lang.String" itemvalue="Application.RunCreateTNGSuite" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TC2870_Prüfen_des_Look_Feel_Visualiseirung_Formatierung" />
-      <item index="2" class="java.lang.String" itemvalue="Application.RALLYLoginDataForm_New" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TC2853" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.SimpleTest1" />
-      <item index="5" class="java.lang.String" itemvalue="TestNG.SimpleTest2" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.SimpleTest1" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.SimpleTest2" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TC2853" />
+      <item index="3" class="java.lang.String" itemvalue="Application.RunCreateTNGSuite" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TC2870_Prüfen_des_Look_Feel_Visualiseirung_Formatierung" />
+      <item index="5" class="java.lang.String" itemvalue="Application.RALLYLoginDataForm_New" />
       <item index="6" class="java.lang.String" itemvalue="Application.TC2869_Prüfen_des_Look_Feel_des_AutoSuggest" />
       <item index="7" class="java.lang.String" itemvalue="Application.TC3167_Favoritenmodul_Suche_Nach_Stadt_Favoriten" />
       <item index="8" class="java.lang.String" itemvalue="Application.TC2782_Prüfen_der_Datenbank_Feldern" />
@@ -1345,7 +1116,14 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",KIND_SORTER,GROUP_BY_PREFIXES,VISIBILITY_SORTER,ALPHA_COMPARATOR" />
   </component>
@@ -1480,34 +1258,34 @@
     <frame x="-1088" y="-8" width="1096" height="1936" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32658798" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32152894" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35150167" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291506" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39629006" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996064" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2445194" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41259134" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3069498" sideWeight="0.87689716" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15031983" sideWeight="0.49945945" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2046332" sideWeight="0.123102866" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27431142" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JFormDesigner Error Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21189189" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.39978677" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26702702" sideWeight="0.5879531" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="-986" y="870" width="896" height="707" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16534542" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3503861" sideWeight="0.87689716" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32658798" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16254218" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35150167" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291506" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39629006" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.243604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15031983" sideWeight="0.49945945" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2046332" sideWeight="0.123102866" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27431142" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="JFormDesigner Error Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21189189" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.39978677" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26702702" sideWeight="0.5879531" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="-986" y="870" width="896" height="707" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996064" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41259134" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16534542" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1551,117 +1329,82 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testentities/BackendTestCaseImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.116504855">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4294/TC2838_Tab_Logik_Deutschland.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4297/TC2927_Breadcrumb_für_Orte_im_Deutschland.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="177" column="26" selection-start-line="177" selection-start-column="26" selection-end-line="177" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33286908">
-          <caret line="900" column="0" selection-start-line="900" selection-start-column="0" selection-end-line="900" selection-end-column="0" />
-          <folding>
-            <element signature="method#next#0;class#Itr#0;class#ArrayList#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/sikuli/sikuli-api/1.1.0/sikuli-api-1.1.0-sources.jar!/org/sikuli/api/visual/ScreenRegionCanvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3196379">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/ArrayList.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sikuli/sikuli-api/1.1.0/sikuli-api-1.1.0-sources.jar!/org/sikuli/api/visual/ScreenRegionCanvas.java" />
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4327/TC2869_Prüfen_des_Look_Feel_des_AutoSuggest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/TC46_TestCaseUS001.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US5430/TC3016_Direkte_Verlinkung_Wetterdetailsseite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/resources/stationsIDDE.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4303/TC2906_Prüfen_von_Canonical_Tag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19854015">
+        <state relative-caret-position="0">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US9996/TC3168_Prüfen_der_WertterStationsIDDE.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1094891">
+        <state relative-caret-position="0">
           <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US9996/TC3170_Prüfen_der_WertterStationsIDIN.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24671532">
+        <state relative-caret-position="0">
           <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4314/TC2867_Weiterleitung_der_alte_URL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2729927">
+        <state relative-caret-position="0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4303/TC2907_Prüfen_von_Verlinkung_SEO_Power.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.340146">
+        <state relative-caret-position="0">
           <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/io/FileInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33287483">
-          <caret line="218" column="23" selection-start-line="218" selection-start-column="23" selection-end-line="218" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/io/FileInputStream.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41195476">
+        <state relative-caret-position="0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
@@ -1669,180 +1412,107 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wetter2.0_middleware/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32956383">
+        <state relative-caret-position="0">
           <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/resources/dynamischerURLAll.result">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5271318">
+        <state relative-caret-position="0">
           <caret line="20" column="111" selection-start-line="20" selection-start-column="111" selection-end-line="20" selection-end-column="111" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/resources/dynamischerURLAll.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41233766">
+        <state relative-caret-position="0">
           <caret line="0" column="1169669" selection-start-line="0" selection-start-column="1169669" selection-end-line="0" selection-end-column="1169669" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Wetterbox.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1583851">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Wetterbox_breit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6335404">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Wetterbox_schmal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60714287">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Wetterbox.html" />
+    <entry file="file://$PROJECT_DIR$/../../../../Wetterbox_breit.html" />
+    <entry file="file://$PROJECT_DIR$/../../../../Wetterbox_schmal.html" />
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US9997/TC3169_Testing_all_Links.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/BetaRelease_2/Sprint_40/US5066/TC2541_Links_in_der_Detailseite_http.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42401215">
+        <state relative-caret-position="0">
           <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4113/TC2780_Prüfen_der_Datenbank_Feldern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50911856">
+        <state relative-caret-position="0">
           <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/resources/dynamischerURL.result">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/resources/dynamischerURL.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="543" column="86" selection-start-line="543" selection-start-column="86" selection-end-line="543" selection-end-column="86" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/core/interfaces/RMSTest_New.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/junit/framework/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/junit/framework/Test.java" />
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US9996/TC0000_DynamischerURLPer301.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="33" column="23" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/resources/testng/result/20150515-124425/jquery-1.7.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/resources/testng/result/20150515-124425/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.1924639">
-          <caret line="357" column="2" selection-start-line="357" selection-start-column="2" selection-end-line="357" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/JavaFX/Arrival/arrivalOptions/arrivalOptions.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4009434">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/resources/testng/result/20150515-124425/jquery-1.7.1.min.js" />
+    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/resources/testng/result/20150515-124425/index.html" />
+    <entry file="file://$PROJECT_DIR$/../../../../JavaFX/Arrival/arrivalOptions/arrivalOptions.fxml" />
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testng/testsuites/testng_head.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testng/RunCreateTNGSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#RunCreateTNGSuite#0;class#RunCreateTNGSuite#0" expanded="false" />
-            <element signature="method#runVirtualSuit#0;class#RunCreateTNGSuite#0" expanded="false" />
-            <element signature="method#createVirtualSuite#0;class#RunCreateTNGSuite#0" expanded="false" />
-            <element signature="method#getNewPathDirectory#0;class#RunCreateTNGSuite#0" expanded="false" />
-            <element signature="method#createNewDirectory#0;class#RunCreateTNGSuite#0" expanded="false" />
-            <element signature="method#getPath#0;class#RunCreateTNGSuite#0" expanded="false" />
-            <element signature="method#main#0;class#RunCreateTNGSuite#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/JavaFX/Arrival/arrivalMain.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="190" column="35" selection-start-line="190" selection-start-column="35" selection-end-line="190" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/JavaFX/Arrival/arrivalMain.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42889908">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../JavaFX/Arrival/arrivalMain.fxml" />
+    <entry file="file://$PROJECT_DIR$/../../../../JavaFX/Arrival/arrivalMain.css" />
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testng/RunTestNGClasses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wetter2.0_frontend/src/main/java/de/telekom/pni/rmstest/frontend/view/RALLYLoginDataForm_New.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="false" />
@@ -1868,95 +1538,102 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wetter2.0_frontend/src/main/java/de/telekom/pni/rmstest/frontend/controller/ApplicationController_New.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/2.45.0/selenium-api-2.45.0-sources.jar!/org/openqa/selenium/WebDriver.java" />
+    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/archiv/MobileWeb1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/archiv/SelendroidApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/archiv/SelendroidAppOnTwoDevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/archiv/SelendroidAppOnTwoDeviceWithGeneric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/core/GenericTest_New.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+          <folding>
+            <element signature="e#3504#3505#0" expanded="false" />
+            <element signature="e#3550#3551#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4116/TC2782_Prüfen_der_Datenbank_Feldern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/manager/WebDriverManager_New.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="200" column="5" selection-start-line="32" selection-start-column="3" selection-end-line="200" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="method#ApplicationController_New#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#getLoginData#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="e#3416#3417#0" expanded="false" />
-            <element signature="e#3458#3459#0" expanded="false" />
-            <element signature="method#connectExternalReporting#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#runApplication#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="e#4281#4282#0" expanded="false" />
-            <element signature="e#4334#4335#0" expanded="false" />
-            <element signature="e#4598#4599#0" expanded="false" />
-            <element signature="e#4649#4650#0" expanded="false" />
-            <element signature="e#4908#4909#0" expanded="false" />
-            <element signature="e#4955#4956#0" expanded="false" />
-            <element signature="e#5241#5242#0" expanded="false" />
-            <element signature="e#5299#5300#0" expanded="false" />
-            <element signature="e#5599#5600#0" expanded="false" />
-            <element signature="e#5660#5661#0" expanded="false" />
-            <element signature="e#5957#5958#0" expanded="false" />
-            <element signature="e#6017#6018#0" expanded="false" />
-            <element signature="e#6308#6309#0" expanded="false" />
-            <element signature="e#6366#6367#0" expanded="false" />
-            <element signature="e#6416#6417#0" expanded="false" />
-            <element signature="e#6453#6454#0" expanded="false" />
-            <element signature="e#6522#6523#0" expanded="false" />
-            <element signature="e#6574#6575#0" expanded="false" />
-            <element signature="method#getTestLabList#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#runTestSet#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#refreshTestListFromRepository#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#testNameIsSelected#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#initRunningConfig#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#getSpecialPackages#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#filterRunningList#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#extractSimpleTestArray#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="e#10924#10925#0" expanded="false" />
-            <element signature="e#10955#10956#0" expanded="false" />
-            <element signature="e#11000#11001#0" expanded="false" />
-            <element signature="e#11040#11041#0" expanded="false" />
-            <element signature="method#writeTestResultToExternalReporting#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#testRunCompleted#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#stopTestRun#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#createConfiguartion#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="e#12383#12384#0" expanded="false" />
-            <element signature="e#12420#12421#0" expanded="false" />
-            <element signature="method#getSupportedBrowsers#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#getFilters#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#addRunConfiguration#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="e#13171#13172#0" expanded="false" />
-            <element signature="e#13221#13222#0" expanded="false" />
-            <element signature="method#getTestrunConfiguarition#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#stopConfigurationRun#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#startConfigurationRun#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#getComboFilterString#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#getComboServerString#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#getComboBrowserString#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#getTestingRootPath#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#getTestSetFromExternalReporting#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="e#16868#16869#0" expanded="false" />
-            <element signature="e#16944#16945#0" expanded="false" />
-            <element signature="method#getTempFolderPath#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#getMachine#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#getTestCaseFromDataStorage#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#addTestCaseToDataStorage#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#deleteTestCaseFromDataStorage#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="e#19573#19574#0" expanded="false" />
-            <element signature="e#19609#19610#0" expanded="false" />
-            <element signature="method#updateProgressBar#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="method#updateProgressBarMax#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="e#20089#20090#0" expanded="false" />
-            <element signature="e#20115#20116#0" expanded="false" />
-            <element signature="e#20218#20219#0" expanded="false" />
-            <element signature="e#20248#20249#0" expanded="false" />
-            <element signature="method#updateLabelStatus#0;class#ApplicationController_New#0" expanded="false" />
-            <element signature="e#20525#20526#0" expanded="false" />
-            <element signature="e#20556#20557#0" expanded="false" />
-            <element signature="e#20664#20665#0" expanded="false" />
-            <element signature="e#20704#20705#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wetter2.0_frontend/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/manager/PropertiesManager_New.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="161" column="6" selection-start-line="161" selection-start-column="6" selection-end-line="161" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/externalReporting/RallyExternalReportingImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="765">
           <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#RallyExternalReportingImpl#0;class#RallyExternalReportingImpl#0" expanded="false" />
             <element signature="method#disconnect#0;class#RallyExternalReportingImpl#0" expanded="false" />
             <element signature="method#getTestSet#0;class#RallyExternalReportingImpl#0" expanded="false" />
@@ -1980,94 +1657,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wetter2.0_frontend/src/main/java/de/telekom/pni/rmstest/frontend/view/ApplicationWindows_New.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="499" column="39" selection-start-line="499" selection-start-column="39" selection-end-line="499" selection-end-column="39" />
-          <folding>
-            <element signature="method#widgetSelected#0;class#7627:9916" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/manager/PropertiesManager_New.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="161" column="6" selection-start-line="161" selection-start-column="6" selection-end-line="161" selection-end-column="6" />
-          <folding>
-            <element signature="method#setProperty#0;class#PropertiesManager_New#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/manager/WebDriverManager_New.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="200" column="5" selection-start-line="32" selection-start-column="3" selection-end-line="200" selection-end-column="5" />
+        <state relative-caret-position="802">
+          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/testcases/Relaunch_2014/Wetter20_INTERN_Sprint_01/US4116/TC2782_Prüfen_der_Datenbank_Feldern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
-          <folding>
-            <element signature="method#runTest#0;class#TC2782_Prüfen_der_Datenbank_Feldern#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/2.45.0/selenium-api-2.45.0-sources.jar!/org/openqa/selenium/WebDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3105023">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/de/telekom/pni/rmstest/backend/core/GenericTest_New.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
-          <folding>
-            <element signature="e#3504#3505#0" expanded="true" />
-            <element signature="e#3550#3551#0" expanded="true" />
-            <element signature="method#getBrowser#0;class#GenericTest_New#0" expanded="true" />
-            <element signature="method#setBrowserFirefox#0;class#GenericTest_New#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/archiv/SelendroidAppOnTwoDeviceWithGeneric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/archiv/SelendroidAppOnTwoDevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/archiv/SelendroidApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wetter2.0_backend/src/main/java/archiv/MobileWeb1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25835866">
-          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
