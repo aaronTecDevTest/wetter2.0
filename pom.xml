@@ -18,8 +18,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <version.compiler.plugin>3.0</version.compiler.plugin>
         <version.surefire.plugin>2.12.4</version.surefire.plugin>
-        <version.selenium>2.45.0</version.selenium>
-        <version.sikuli>1.1.0</version.sikuli>
+        <version.selenium>2.53.0</version.selenium>
+        <version.sikuli>1.2.0</version.sikuli>
         <version.junit>4.11</version.junit>
         <version.testng>6.8.21</version.testng>
         <version.rally-rest-api>2.0.4</version.rally-rest-api>
@@ -178,6 +178,13 @@
                 <artifactId>httpclient</artifactId>
                 <version>4.3.2</version>
             </dependency>
+
+            <dependency>
+                <groupId>commons-logging</groupId>
+                <artifactId>commons-logging</artifactId>
+                <version>1.1.1</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
@@ -239,13 +246,13 @@
         </pluginManagement>
     </build>
 
-    <!-- Profile, die durch -p zum Build-Prozess hinzugeschaltet werden können -->
-    <profiles>
+    <!-- Profile, die durch -p zum Build-Prozess hinzugeschaltet werden können >
+    <-profiles>
         <profile>
             <id>autorun</id>
             <build>
                 <plugins>
-                    <!-- Plugin zum Ausführen von Programmen über Maven -->
+                    <- Plugin zum Ausführen von Programmen über Maven >
                     <plugin>
                         <artifactId>maven-antrun-plugin</artifactId>
                         <version>1.7</version>
@@ -253,7 +260,7 @@
                             <execution>
                                 <id>autorun TestSet</id>
                                 <phase>pre-integration-test</phase>
-                                <!-- Legt das Executable und die nötigen Parameter fest, das ausgeführtwerden soll -->
+                                <- Legt das Executable und die nötigen Parameter fest, das ausgeführtwerden soll >
                                 <configuration>
                                     <target>
                                         <exec executable="java">
@@ -271,6 +278,6 @@
                 </plugins>
             </build>
         </profile>
-    </profiles>
+    </profiles-->
 
 </project>

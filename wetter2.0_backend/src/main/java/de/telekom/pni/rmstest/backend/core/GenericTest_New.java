@@ -25,7 +25,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+//import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 //import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 //import org.openqa.selenium.support.ui.WebDriverWait;
@@ -45,8 +45,8 @@ import de.telekom.pni.rmstest.backend.reporting.Step;
 import de.telekom.pni.rmstest.backend.reporting.StepLogger;
 import de.telekom.pni.rmstest.backend.utilities.TestingUtil;
 
-import com.gargoylesoftware.htmlunit.DefaultCredentialsProvider;
-import com.gargoylesoftware.htmlunit.WebClient;
+//import com.gargoylesoftware.htmlunit.DefaultCredentialsProvider;
+//import com.gargoylesoftware.htmlunit.WebClient;
 
 import javax.swing.tree.ExpandVetoException;
 
@@ -670,80 +670,80 @@ public abstract class GenericTest_New implements RMSTest_New {
      * @param password If required, null otherwise
      * @return List containing all entries in the log file.
      */
-    public List<String> readLogFile(String url, String username, String password) {
-
-        // 1. Get the URL
-        if (url == null || url.length() == 0)
-            return null;
-        String http = "http://";
-        String https = "https://";
-        String prefix = null;
-        String baseUrl = null;
-        String finalUrl = null;
-
-        HtmlUnitDriver drv = getUnitDriverWithCredentials(username, password);
-
-        // FirefoxDriver drv = new FirefoxDriver();
-
-        int httpPos = 0;
-
-        if ((httpPos = url.indexOf(http)) >= 0) {
-            httpPos += http.length();
-            baseUrl = url.substring(httpPos);
-            prefix = http;
-        } else if ((httpPos = url.indexOf(https)) >= 0) {
-            httpPos += https.length();
-            baseUrl = url.substring(httpPos);
-            prefix = https;
-        } else {
-            prefix = "";
-            baseUrl = url;
-        }
-
-        if (username != null && password != null) {
-            finalUrl = prefix + username + ":" + password + "@" + baseUrl;
-        } else {
-            finalUrl = url;
-        }
-
-        // 2. get the file
-        drv.get(finalUrl);
-        String[] entries = drv.getPageSource().split("\n");
-        drv.close();
-        if (entries == null)
-            return null;
-        return Arrays.asList(entries);
-    }
-
-    /**
-     * For authentication purposes on servers using HTTP Basic Authentication it
-     * is necessary to specify the login data within the URL. This method
-     * returns a browser independent HtmlUnitDriver with the necessary
-     * DefaultCredentialProvider with the specified username and password. !!
-     * UNSAFE USAGE OF THE DATA PROVIDED !!
-     *
-     * @param username
-     * @param password
-     * @return Browser independent WebDriver: HtmlUnitDriver
-     */
-    public HtmlUnitDriver getUnitDriverWithCredentials(final String username,
-                                                       final String password) {
-        HtmlUnitDriver driver = new HtmlUnitDriver() {
-            protected WebClient modifyWebClient(WebClient client) {
-                // This class ships with HtmlUnit itself
-                DefaultCredentialsProvider creds = new DefaultCredentialsProvider();
-
-                // initialize credentials
-                creds.addCredentials(username, password);
-
-                // And now add the provider to the webClient instance
-                client.setCredentialsProvider(creds);
-
-                return client;
-            }
-        };
-        return driver;
-    }
+//    public List<String> readLogFile(String url, String username, String password) {
+//
+//        // 1. Get the URL
+//        if (url == null || url.length() == 0)
+//            return null;
+//        String http = "http://";
+//        String https = "https://";
+//        String prefix = null;
+//        String baseUrl = null;
+//        String finalUrl = null;
+//
+//        HtmlUnitDriver drv = getUnitDriverWithCredentials(username, password);
+//
+//        // FirefoxDriver drv = new FirefoxDriver();
+//
+//        int httpPos = 0;
+//
+//        if ((httpPos = url.indexOf(http)) >= 0) {
+//            httpPos += http.length();
+//            baseUrl = url.substring(httpPos);
+//            prefix = http;
+//        } else if ((httpPos = url.indexOf(https)) >= 0) {
+//            httpPos += https.length();
+//            baseUrl = url.substring(httpPos);
+//            prefix = https;
+//        } else {
+//            prefix = "";
+//            baseUrl = url;
+//        }
+//
+//        if (username != null && password != null) {
+//            finalUrl = prefix + username + ":" + password + "@" + baseUrl;
+//        } else {
+//            finalUrl = url;
+//        }
+//
+//        // 2. get the file
+//        drv.get(finalUrl);
+//        String[] entries = drv.getPageSource().split("\n");
+//        drv.close();
+//        if (entries == null)
+//            return null;
+//        return Arrays.asList(entries);
+//    }
+//
+//    /**
+//     * For authentication purposes on servers using HTTP Basic Authentication it
+//     * is necessary to specify the login data within the URL. This method
+//     * returns a browser independent HtmlUnitDriver with the necessary
+//     * DefaultCredentialProvider with the specified username and password. !!
+//     * UNSAFE USAGE OF THE DATA PROVIDED !!
+//     *
+//     * @param username
+//     * @param password
+//     * @return Browser independent WebDriver: HtmlUnitDriver
+//     */
+//    public HtmlUnitDriver getUnitDriverWithCredentials(final String username,
+//                                                       final String password) {
+//        HtmlUnitDriver driver = new HtmlUnitDriver() {
+//            protected WebClient modifyWebClient(WebClient client) {
+//                // This class ships with HtmlUnit itself
+//                DefaultCredentialsProvider creds = new DefaultCredentialsProvider();
+//
+//                // initialize credentials
+//                creds.addCredentials(username, password);
+//
+//                // And now add the provider to the webClient instance
+//                client.setCredentialsProvider(creds);
+//
+//                return client;
+//            }
+//        };
+//        return driver;
+//    }
 
     /**
      * Finds the parent element to a given element and returns it.

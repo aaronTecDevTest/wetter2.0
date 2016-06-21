@@ -63,7 +63,7 @@ public class TC2780_Prüfen_der_Datenbank_Feldern extends GenericTest_New {
         globalVar.searchStringList.add("USE_STATION");
 
 
-        File file = new File("U:\\01_Dev\\Wetter_2.0\\Testcode\\workspace\\wetter2.0\\wetter2.0_backend\\src\\main\\resources\\jsonview-0.9-fx.xpi");
+        File file = new File("..\\wetter2.0\\wetter2.0_backend\\src\\main\\resources\\jsonview-0.9-fx.xpi");
         FirefoxProfile firefoxProfile = new FirefoxProfile();
         try {
             firefoxProfile.addExtension(file);
