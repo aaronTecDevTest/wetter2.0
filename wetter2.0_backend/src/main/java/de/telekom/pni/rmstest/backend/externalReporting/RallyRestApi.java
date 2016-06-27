@@ -144,8 +144,8 @@ public class RallyRestApi implements Closeable {
      * @param proxy The proxy server, e.g. {@code new URI("http://my.proxy.com:8000")}
      */
     public void setProxy(URI proxy) {
-        this.proxy = proxy;
-        httpClient.getParams().setParameter(ConnRoutePNames.DEFAULT_PROXY, new HttpHost(proxy.getHost(), proxy.getPort(), proxy.getScheme()));
+        // this.proxy = proxy;
+        // httpClient.getParams().setParameter(ConnRoutePNames.DEFAULT_PROXY, new HttpHost(proxy.getHost(), proxy.getPort(), proxy.getScheme()));
     }
 
     /**
@@ -156,8 +156,8 @@ public class RallyRestApi implements Closeable {
      * @param password The password to be used for authentication.
      */
     public void setProxy(URI proxy, String userName, String password) {
-        setProxy(proxy);
-        setClientCredentials(proxy, userName, password);
+        //setProxy(proxy);
+        //setClientCredentials(proxy, userName, password);
     }
 
     private void setClientCredentials(URI server, String userName, String password) {

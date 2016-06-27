@@ -89,8 +89,8 @@ public class WebDriverManager_New {
                 break;
 
             default:
-                //driver = new FirefoxDriver(this.setUpFirefox());
-                driver = new FirefoxDriver();
+                driver = new FirefoxDriver(this.setUpFirefox());
+                //driver = new ChromeDriver();
                 break;
         }
         //driver.manage().window().setSize(screenResolution);

@@ -32,10 +32,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="wetter2.0" target="1.8" />
-      <module name="wetter2.0_backend" target="1.8" />
-      <module name="wetter2.0_frontend" target="1.8" />
-      <module name="wetter2.0_middleware" target="1.8" />
+      <module name="wetter2.0" target="1.7" />
+      <module name="wetter2.0_backend" target="1.7" />
+      <module name="wetter2.0_frontend" target="1.7" />
+      <module name="wetter2.0_middleware" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

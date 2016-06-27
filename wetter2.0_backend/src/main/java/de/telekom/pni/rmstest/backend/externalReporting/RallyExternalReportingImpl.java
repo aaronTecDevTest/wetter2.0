@@ -70,7 +70,7 @@ public class RallyExternalReportingImpl implements ExternalReporting {
             log.debug("Trying to connect to Rally");
             rallyApi = new RallyRestApi(new URI(RALLY.getProperty("url")), loginData.getUsername(), loginData.getPassword());
 //			Vorübergehend wird hier die Proxy-Einstellung gesetzt.
-            rallyApi.setProxy(new URI("http://192.168.1.112:3128"));
+            //rallyApi.setProxy(new URI("http://192.168.1.112:3128"));
             rallyApi.setApplicationName(RALLY.getProperty("applicationName"));
             GetRequest getRequest = new GetRequest(RALLY.getProperty("workspace"));
             rallyApi.get(getRequest);
